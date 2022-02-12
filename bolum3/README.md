@@ -31,5 +31,6 @@ linux dağıtımlarından debian tabanlı ubuntu kullandığım için
 
 `minikube stop` dersek clusterın sistem kaynaklarını sömürmesini de engelliyerek durdurur .
 
+## Ders -5 Azure Kubernetes Service "AKS"
 
 
