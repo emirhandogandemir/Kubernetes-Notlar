@@ -27,7 +27,7 @@ yani nasıl yapılacağını tarif etmiyor , ne istediğimizi söylüyoruz
 ![image](https://user-images.githubusercontent.com/74687192/153705696-d66cf365-2648-456f-bc4d-5d282d1dec73.png)
 
 ## Ders -6 (Kubernetes Yayın Döngüsü )
-  
+  ![image](https://user-images.githubusercontent.com/74687192/153706026-a696d147-be8a-4e52-97cd-83b82c4d07d0.png)
   
 
   
