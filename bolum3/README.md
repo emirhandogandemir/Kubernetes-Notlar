@@ -23,7 +23,7 @@ linux dağıtımlarından debian tabanlı ubuntu kullandığım için
 
 `minikube status` ile kurulan minikube durumuna bakabiliriz.
 
-`minikube start`
+`minikube start` ile cluster kurulumunu gerçekleştirebiliriz .
 
 `minikube start --driver=hyper-v || minikube start --driver=docker`
 
