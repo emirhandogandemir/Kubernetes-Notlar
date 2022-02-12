@@ -13,6 +13,7 @@ yani nasıl yapılacağını tarif etmiyor , ne istediğimizi söylüyoruz
   
 Ders -4 (Kubernetes Componentleri)
   K8s de aynen microservice mimarisindeki gibi tasarlanmış bir platformdur . Tek bir k8s adında uygulama yoktur . K8s platformunu oluşturan birçok servis mevcuttur ve bu servislerin bir arada düzgün kurgulanarak çalıştırılması sonucu K8s platformu oluşturulur .
+  ![image](https://user-images.githubusercontent.com/74687192/153704872-5234c8e0-2bf9-40b4-8cb5-d4ed9affc38f.png)
   
   
 
