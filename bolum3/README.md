@@ -27,5 +27,9 @@ linux dağıtımlarından debian tabanlı ubuntu kullandığım için
 
 `minikube start --driver=hyper-v || minikube start --driver=docker`
 
+`minikube delete` = komple clusterı siler
+
+`minikube stop` dersek clusterın sistem kaynaklarını sömürmesini de engelliyerek durdurur .
+
 
 
