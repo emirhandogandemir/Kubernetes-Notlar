@@ -17,7 +17,15 @@ Ders -4 (Kubernetes Componentleri)
   ![image](https://user-images.githubusercontent.com/74687192/153704905-bf054f46-95d6-4919-888e-9b751653703b.png)
   
   Ders-5 (Kubernetes Componentleri -2 )
-  
+  ![image](https://user-images.githubusercontent.com/74687192/153705343-f8b9bda9-53d2-4b13-8d9f-8408c9f0a3cb.png)
+![image](https://user-images.githubusercontent.com/74687192/153705351-0163f8c1-051b-4c3c-aee5-a6c0d2e8742b.png)
+![image](https://user-images.githubusercontent.com/74687192/153705408-e0bb2c31-31b8-486e-ab1c-3e92090e18f2.png)
+![image](https://user-images.githubusercontent.com/74687192/153705445-8bcec9e3-ac9f-409c-a502-d4ec443c846e.png)
+![image](https://user-images.githubusercontent.com/74687192/153705548-7e3d0e77-6668-4ac9-9e05-97124e206fd4.png)
+![image](https://user-images.githubusercontent.com/74687192/153705655-e204ad25-651f-4f33-8918-774b05d6e4cc.png)
+![image](https://user-images.githubusercontent.com/74687192/153705670-6c33d73e-c49b-42a5-b4be-71dc772dd108.png)
+![image](https://user-images.githubusercontent.com/74687192/153705696-d66cf365-2648-456f-bc4d-5d282d1dec73.png)
+
   
   
   
