@@ -33,4 +33,30 @@ linux dağıtımlarından debian tabanlı ubuntu kullandığım için
 
 ## Ders -5 Azure Kubernetes Service "AKS"
 
+Aks kullanabilmemiz için bir adet azure hesabına ihtiyacımız olacak . 
+Cloud üzerinde bir manage kubernetes cluster kurduğumuz zaman size sadece worker nodelar ile uğraşabilme imkanı sağlıyor . Ayrı bir master node kurmuyoruz , bu master node o cloud sağlayıcısının yönetiminde olur . 
+Azure Clı yüklememiz gerekir . 
+
+`az login`
+
+`az group list`
+
+`az group list -o table`
+
+`az aks get-credentials --name aks-k8s-test --resource-group rg-k8s-test` kubernetes clusterımız ile kubectlımızın konuşulmasını sağlıyor kısaca üstteki komut .
+
+## DERS -6 Google Kubernetes Engine (GKE)
+
+## Ders - 7 Amazon Elastic Kubernetes Service (EKS)
+
+
+## Ders-8 (Kubeadm ile Kubernetes Cluster Kurulumu )
+
+Kubeadm kubernetes platformunun temel kurulum aracıdır . 
+Kubeadm ile herahngi bir sanal veya fizilsel makine üzerinde k8s kurulumu yapabiliyoruz . 
+" Multipass aracı " 
+
+## Ders-9 Play With Kubernetes 
+
+
 
