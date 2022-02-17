@@ -17,6 +17,9 @@ Single node bir k8s cluster ayağa kaldırabilme imkanı da sunuyor .
 Bir nevi k8s projesinin yan ürünlerinden bir tanesi . Minikube da ayni docker Desktop gibi bizim localimizde single node bir kubernetes cluster kurmamızı sağlıyor .
 Minikube sisteme kurulduktan sonra sisteme bakıyor . sistemde docker varsa bu sanal makine işlerini o dockerı kullanarak hallediyor . eğer yoksa Hyper-v vmware virtualbox gibi sistemde olabilecek sanallaştırma katmanını tarıyor . Bulduğu sanallaştırma katmanını kullanarak arkada birkaç tane sanal makine ya da container ayağa kaldırarak k8si bunların üstünde ayağa kaldırıyor . Minikube kullanabilmem için sistemimde bu sanallaştırma katmanlarından birinin kurulu olması gerekiyor .
 
+https://kubernetes.io/blog/2019/03/28/running-kubernetes-locally-on-linux-with-minikube-now-with-kubernetes-1.14-support/
+minikubede yaşadığım sorun için bulduğum çözüm linki vm de linux os kullanıyorum . makineyi kapatıp açtığımda minikube komutunu tanımıyor şeklinde bir error alıyordum sürekli olarak .
+
 linux dağıtımlarından debian tabanlı ubuntu kullandığım için 
 
 `brew install minikube`  komutu ile minikube' u kurdum .
