@@ -98,16 +98,22 @@ spec:
 genel olarak apply komutu ile yaml dosyasından yapılır .
 
 ## Pod Yaşam Döngüsü ( Ders -7 )
+
 `Pending` => siz veya sistemde başka bir bileşen yeni bir pod oluşturmuştur .
+
 etcd ye pod yazılır
 k8s scheduler sürekli olarak etcdyi izliyor . poda uygun bir node bilgisini ekler 
+
 `Creating` => pod oluşturma aşamasına geçer .
 kubelet de scheduler gibi sürekli etcdyi izler ve bulunduğu nodea atanmış podları gözler , yeni yaratılmış podu görür hemen işlemlere başlar .
+
 `Running` => containerlar çalışmaya başladığı anda da pod running durumuna geçer .
+
 ![image](https://user-images.githubusercontent.com/74687192/156436478-9f8bd96e-023c-4b48-9358-b33b4b143202.png)
 Podun içerisinde oluşturulan containerlara pod tanımı içerisinde Restart-policy tanımı yapılır . bunun da 3 durumu vardır 
+
 - Always
 - On-failure
 - Never
-`Succeed` => Podun yaşam döngüsünü başarılı bir şekilde tamamlama sonucunu içerir .
-`CrashLoopBackOff` => containerin sürekli restart edildiğini bir şeylerin yanlış gittiğini belirtir .
+- Succeed => Podun yaşam döngüsünü başarılı bir şekilde tamamlama sonucunu içerir .
+- CrashLoopBackOff => containerin sürekli restart edildiğini bir şeylerin yanlış gittiğini belirtir .
