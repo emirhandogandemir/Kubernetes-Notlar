@@ -43,6 +43,9 @@ Bu bölümde temel olarak kubectl i nasıl kullanabileceğimize odaklandık ve b
 
 ## Pod (Ders-3)
 
+
+![image](https://user-images.githubusercontent.com/74687192/156416447-f7eda80d-6174-4a38-8ae1-668a166ed909.png)
  
+ kubernetes üzerinde her şey bir api objesidir . Pod kubernetesde oluşturup yönetebileceğimiz en küçük ve temel birimdir . Kubernetesde biz direk olarak container oluşturmayız yani direk git şu containeri çalıştır demeyiz .
  
  
