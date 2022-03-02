@@ -49,3 +49,52 @@ Bu bölümde temel olarak kubectl i nasıl kullanabileceğimize odaklandık ve b
  kubernetes üzerinde her şey bir api objesidir . Pod kubernetesde oluşturup yönetebileceğimiz en küçük ve temel birimdir . Kubernetesde biz direk olarak container oluşturmayız yani direk git şu containeri çalıştır demeyiz .
  
  
+![image](https://user-images.githubusercontent.com/74687192/156417297-05824dcb-6f2e-4e86-b397-ad4ded6a0113.png)
+
+## Pod Oluşturma (Ders -4)
+
+- `kubectl run firstpod --image=nginx --restart=Never` = image nginx olan düştüğünde restart olmıycak bir pod
+- `kubectl describe` komutu bir objenin detaylarını görmemize imkan veriyor . events kısmı önemlidir .
+- `kubectl describe deployments denemedeploy` 
+- `kubectl logs firstpod` => podların loglarını gözlemlemek için
+- `kubectl logs -f firstpod` => canlı olarak podların loglarına yapışmak için
+- `kubectl exec firstpod -- ` => firstpodun içerisinde komut girmek için 
+- `kubectl exec -it firstpod -- /bin/sh` =>firstpodun içerisindeki containerin içine bağlanmak için 
+- `kubectl delete pods firstpod` => oluşturduğumuz podu silmek için 
+
+
+## Yaml (Ders -5 )
+Yaml bir veri serilizasyon standartıdır .
+
+## Pod Yaml (Ders 6)
+ 
+- apiVersion: => bu kısım bizim bu oluşturmak istediğimiz obje tipinin k8s APInda hangi endpoint üstünde ya da kaba tabirle hangi endpointte tanımlandığını belirttiğimiz kısımdır .
+- kind:  => objenin ne objesi olduğunu burada tanımlarız .
+- metadata: => bizim bu obje ile ilgili uniq bilgileri tanımladığımız yerdir .(namespace , isim , label , annotataionslar gibi )
+- spec: => her obje tipine göre değişen kısımdır . spec kısmında oluşturmak istediğimiz objenin özelliklerini belirleriz .
+
+`kubectl explain pods`
+
+ilk 3 ü her k8s objesinde bulunması zorunlu üst seviye anahtarlardır.
+sonuncusu specde objelerin çoğunda bulunur bazılarında bulunmayabilir.
+`apiVersion: v1
+kind: Pod
+metadata:
+  name : firstpod
+  labels:
+    app: front-end
+spec:
+  containers:
+  - name : nginx
+    image: nginx:latest
+    ports:
+    - containerPort: 80`
+
+
+`kubectl apply -f pod1.yaml` => pod1 yaml dosyası olarak bir obje tanımladım benim için oluştur demek oluyor .
+
+`kubectl edit pods firstpod` => k8s clusterindan yaml olarak çekip açar . burada ekleyip kaydedip çıkarsak k8s hemen bu değişikliği bu obje üzerinde uygular .
+genel olarak apply komutu ile yaml dosyasından yapılır .
+
+## Pod Yaşam Döngüsü ( Ders -7 )
+
