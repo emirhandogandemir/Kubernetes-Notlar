@@ -77,6 +77,7 @@ Yaml bir veri serilizasyon standartıdır .
 
 ilk 3 ü her k8s objesinde bulunması zorunlu üst seviye anahtarlardır.
 sonuncusu specde objelerin çoğunda bulunur bazılarında bulunmayabilir.
+
 `apiVersion: v1
 kind: Pod
 metadata:
@@ -85,7 +86,7 @@ metadata:
     app: front-end
 spec:
   containers:
-  - name : nginx
+  ``- name : nginx
     image: nginx:latest
     ports:
     - containerPort: 80`
