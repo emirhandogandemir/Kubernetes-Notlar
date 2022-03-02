@@ -117,3 +117,10 @@ Podun içerisinde oluşturulan containerlara pod tanımı içerisinde Restart-po
 - Never
 - Succeed => Podun yaşam döngüsünü başarılı bir şekilde tamamlama sonucunu içerir .
 - CrashLoopBackOff => containerin sürekli restart edildiğini bir şeylerin yanlış gittiğini belirtir .
+
+
+## Pod Yaşam Döngüsü | Uygulama (Ders-8)
+
+`kubectl get podes -w` => wacth işlevini yerine getirir .
+
+
