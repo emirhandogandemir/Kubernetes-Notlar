@@ -40,9 +40,9 @@ linuxda man in karşılığı => kubectl explain ile k8s objelerini check etmek 
 
 Bu bölümde temel olarak kubectl i nasıl kullanabileceğimize odaklandık ve bilmemiz gereken temel opsiyonları öğrendik .
  
- 
- 
- 
+
+## Pod (Ders-3)
+
  
  
  
