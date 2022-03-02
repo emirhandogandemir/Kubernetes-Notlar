@@ -16,3 +16,33 @@ context => kube config dosyasındaki bağlanmak istediğimiz clustera hangi user
 
 
 ## Kubectl Kullanımı (Ders 2)
+
+- `kubectl cluster-info`
+ 
+  kubectl + fiil + üzerinde uygulanacak obje şeklinde kubectl kullanımı düşünülebilir .
+  
+ `kubectl delete pods testpod`
+ 
+ kubectl + fiil + obje + obje üzerinde spesifik işlem yapmak istiyorsak yukarıdaki .
+ 
+ kubectlde aksi belirtilmediği sürece tüm komutlar contextde set edilmiş namespace üzerinde uygulanır .
+ set edilmemişse default namespace üzerinde uygulanır .
+ 
+- `kubectl get pods -n kube-system`
+- `kubectl get pods -A` = namespace ayrımı olmadan gösterim sağlıyor
+- `kubectl get pods -A -o wide` -o ile output formatı değiştirilebiliyor .
+- `kubectl get pods -A -o yaml` -o json , jsonpath , go-template , yaml , wide , custom-columns 
+- `kubectl get pods -A -o json | jq -r ".items[].spec.containers[].name`
+
+linuxda man in karşılığı => kubectl explain ile k8s objelerini check etmek için `kubectl explain pod` komutu kullanılabilir
+
+`kubectl explain deployment`
+
+Bu bölümde temel olarak kubectl i nasıl kullanabileceğimize odaklandık ve bilmemiz gereken temel opsiyonları öğrendik .
+ 
+ 
+ 
+ 
+ 
+ 
+ 
