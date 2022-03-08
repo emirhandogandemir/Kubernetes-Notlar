@@ -129,6 +129,17 @@ Farklı yaml dosyalarının farklı pod status değerlendirmeleri yapıldı.
 
 container ile ilgili best practiselerden biri tek bir containerda tek bir uygulama çalışsın . Neden bu best practise sorusu sorulacak olursa ileride karşılaşılan scale olma sorunlarından dolayı olarak düşünebiliriz . % 99 biz bir podda bir container olacak şekilde mimariyi tasarlarız lakin biz eğer ki istersek pod içerisinde birden fazla container da çalıştırabiliriz . Peki k8s neden buna izin veriyor ? 
 
+![image](https://user-images.githubusercontent.com/74687192/157220350-16b3c154-4e61-4ab4-b730-2a5b6046baac.png)
+ 
+Eğer podlar arasında tam bağımlılık var ise fluentd gibi burada her zaman ayrı podlar içerisinde container yaratmaya devam ettiğimizde bağımlılık hissedilir . Sürekli bağımlılığa göre 2 ekler 2 siler gibi bir durum ile karşılaşılır . ( container loglarını kaydeden grafana burada düşünülebilir gibi ) 
 
+![image](https://user-images.githubusercontent.com/74687192/157222002-bb26c379-968a-4b50-82ab-75b3fb37a0dd.png)
+
+2 poda aynı local volume ile bağlabilabilmesi için o iki podun da aynı worker node üstünde çalışması gerekiyor .
+
+![image](https://user-images.githubusercontent.com/74687192/157224127-1ac423a0-56e3-4a17-8759-6c12a62294dc.png)
+
+
+k8s , ana uygulamaya bağımlı ve onunla network seviyesinde izolasyon olmadan ve gerektiği durumda ayni depolama altyapısını kullanabilecek uygulamaları pod içerisinde 2. bir container olarak çalıştırma imkanı sağlıyor . bizler birlikte scale etmesi gereken , birbirleri ile network ve storage seviyesinde erişmesi gereken uygulamaları aynı pod içerisinde ayrı ayrı containerlar olarak çalıştırabiliyoruz .
 
 
