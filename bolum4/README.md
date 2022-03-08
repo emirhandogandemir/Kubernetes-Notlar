@@ -201,7 +201,9 @@ k8s altında kaynaklarınızı illa ayrı ayrı yaml dosyaları olarak tanımlam
  
 nodeSelector altında labellar ile çalışacak nodeu belirtebiliyoruz aslında .ku
 
+## Annotation ( Ders 14 )
 
+Objelere metadata eklemek için kullanabileceğimiz bir opsiyon olan labelları önceki bölümlerde işledik. fakat labellar tek seçenek değil 
 
 
 
