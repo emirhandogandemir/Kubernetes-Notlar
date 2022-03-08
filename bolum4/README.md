@@ -166,3 +166,7 @@ pod içerisinde birden fazla container çalıştırmanın birden fazla yöntemi 
 `watch -n 2 kubectl describe pod initcontainerpod`
 
 `kubectl logs -f initcontainerpod -c initcontainer`
+
+## Label ve Selector (Ders 12)
+
+
