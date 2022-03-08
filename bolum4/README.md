@@ -125,6 +125,9 @@ Podun içerisinde oluşturulan containerlara pod tanımı içerisinde Restart-po
 `kubectl get podes -w` => wacth işlevini yerine getirir .
 Farklı yaml dosyalarının farklı pod status değerlendirmeleri yapıldı.
 
+## Çoklu container pod ( Ders -9)
+
+
 
 
 
