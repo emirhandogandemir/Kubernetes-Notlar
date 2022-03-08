@@ -157,4 +157,12 @@ command ile bir shell çalıştır dedik . args ile de bu komuta gelecek opsiyon
 `kubectl port-forward pod/multicontainer 8080:80`
 
 ## Init Container ( Ders 11 )
-pod içerisinde birden fazla container çalıştırmanın birden fazla yöntemi vardır . ve biz buna init container diyoruz 
+pod içerisinde birden fazla container çalıştırmanın birden fazla yöntemi vardır . ve biz buna init container diyoruz
+
+![image](https://user-images.githubusercontent.com/74687192/157286888-74e71be6-18dd-4627-9e3e-af58a0e47b65.png)
+
+![image](https://user-images.githubusercontent.com/74687192/157292651-1cd9e5cb-8076-437b-b7e4-51c43b13c5e5.png)
+
+`watch -n 2 kubectl describe pod initcontainerpod`
+
+`kubectl logs -f initcontainerpod -c initcontainer`
