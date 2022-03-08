@@ -170,3 +170,41 @@ pod içerisinde birden fazla container çalıştırmanın birden fazla yöntemi 
 ## Label ve Selector (Ders 12)
 
 
+![image](https://user-images.githubusercontent.com/74687192/157297288-d857b159-daba-45b7-821c-283097f94128.png)
+
+
+![image](https://user-images.githubusercontent.com/74687192/157297602-29bacf0c-1b6d-4263-8dca-b07803a9b724.png)
+
+## Label ve Selector Uygulama ( Ders 13 )
+
+k8s altında kaynaklarınızı illa ayrı ayrı yaml dosyaları olarak tanımlamak zorunda değiliz . Her tanımdan sonra 3 tane - koyup yeni bir tanım daha ekleyebiliriz . label tanımını metadata kısmında yapıyoruz . labellar bize gruplama ve tanımlama imkanı verir .
+
+- `kubectl get pods -l  "app" --show-labels` => app anahtarına sahip bütün podları listele 
+
+- `kubectl get pods -l  "app=firstapp" --show-labels`
+
+- `kubectl get pods -l  "app=firstapp,tier=frontend" --show-labels`
+
+- `kubectl get pods -l  "app=firstapp,tier=frontend" --show-labels`
+
+- `kubectl get pods -l 'app in (firstapp)'`
+
+- `kubectl get pods -l 'app notin (firstapp)'`
+
+
+- `kubetcl get pods -l "app in (firstapp),tier notin (frontend)" --show-labels`
+
+- `kubectl label pods pod9 app=thirdapp`
+- `kubectl label pods pod9 app-`
+- `kubectl label --overwrite pods pod9 team=team3`
+- `kubectl label pods --all foo=bar`
+ 
+nodeSelector altında labellar ile çalışacak nodeu belirtebiliyoruz aslında .ku
+
+
+
+
+
+
+
+
