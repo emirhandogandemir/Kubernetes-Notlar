@@ -155,3 +155,6 @@ command ile bir shell çalıştır dedik . args ile de bu komuta gelecek opsiyon
 - `apt install net-tools`
 - `ifconfig` ile 2 containerın aynı ip adreslerinde olduğunu gördük
 `kubectl port-forward pod/multicontainer 8080:80`
+
+## Init Container ( Ders 11 )
+pod içerisinde birden fazla container çalıştırmanın birden fazla yöntemi vardır . ve biz buna init container diyoruz 
