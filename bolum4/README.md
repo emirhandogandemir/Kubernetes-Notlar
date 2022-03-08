@@ -142,4 +142,16 @@ Eğer podlar arasında tam bağımlılık var ise fluentd gibi burada her zaman 
 
 k8s , ana uygulamaya bağımlı ve onunla network seviyesinde izolasyon olmadan ve gerektiği durumda ayni depolama altyapısını kullanabilecek uygulamaları pod içerisinde 2. bir container olarak çalıştırma imkanı sağlıyor . bizler birlikte scale etmesi gereken , birbirleri ile network ve storage seviyesinde erişmesi gereken uygulamaları aynı pod içerisinde ayrı ayrı containerlar olarak çalıştırabiliyoruz .
 
+## Coklu container pod Uygulama ( Ders 10 ) 
 
+![image](https://user-images.githubusercontent.com/74687192/157227091-204654ef-65b0-41c5-add8-b34718869301.png)
+
+command ile bir shell çalıştır dedik . args ile de bu komuta gelecek opsiyonları belirtiyoruz .
+
+`kubectl exec  -it multicontainer -c webcontainer -- bin/sh`
+-c ile bağlanmak istediğimiz containerı belirtmiş oluyoruz normald buna gerek yoktu çünkü genel olarak tek podda tek container çalışmakta oluyordur .
+
+- `apt udpate`
+- `apt install net-tools`
+- `ifconfig` ile 2 containerın aynı ip adreslerinde olduğunu gördük
+`kubectl port-forward pod/multicontainer 8080:80`
