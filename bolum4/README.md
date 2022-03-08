@@ -205,7 +205,11 @@ nodeSelector altında labellar ile çalışacak nodeu belirtebiliyoruz aslında 
 
 Objelere metadata eklemek için kullanabileceğimiz bir opsiyon olan labelları önceki bölümlerde işledik. fakat labellar tek seçenek değil 
 
+![image](https://user-images.githubusercontent.com/74687192/157313905-2223568d-bfb6-41ee-974c-f2309410c119.png)
 
+![image](https://user-images.githubusercontent.com/74687192/157313935-8c2b4d27-e558-44e2-ad0c-95141c32a0af.png)
+
+`kubectl annotate pods annotationpod foo=bar` => labellar gibi
 
 
 
