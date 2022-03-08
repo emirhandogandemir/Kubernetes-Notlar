@@ -127,6 +127,7 @@ Farklı yaml dosyalarının farklı pod status değerlendirmeleri yapıldı.
 
 ## Çoklu container pod ( Ders -9)
 
+container ile ilgili best practiselerden biri tek bir containerda tek bir uygulama çalışsın . Neden bu best practise sorusu sorulacak olursa ileride karşılaşılan scale olma sorunlarından dolayı olarak düşünebiliriz . % 99 biz bir podda bir container olacak şekilde mimariyi tasarlarız lakin biz eğer ki istersek pod içerisinde birden fazla container da çalıştırabiliriz . Peki k8s neden buna izin veriyor ? 
 
 
 
