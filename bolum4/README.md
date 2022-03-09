@@ -230,4 +230,35 @@ her kubernetes kurulumunda varsayılan olarak 4 namespace oluşturulur .
 biz istersek kubectl.configimizde varsayılan olarak başka bir namespacei tanımlayabiliriz .
 - `kubectl config set-context --current --namespace=development`
 
+## Deployment ( Ders 16 )
+Bizler genelde k8s üstünde singleton olarak adlandırdığımız tekil ,yönetilmeyen podlar yaratmayız . Podları yöneten üst seviye objeler yaratırız ve podlar bu objeler tarafından yaratılıp , yönetilir . Bu bölümde bu objelerin en sık kullanılanlardan bir tanesi olan `Deployment` objesine göz atacağız . 
 
+TEKİL POD:
+
+![image](https://user-images.githubusercontent.com/74687192/157398722-2a6db9eb-ecc7-47e4-a2c7-1cebddfcc224.png)
+
+DEPLOYMENT:
+
+![image](https://user-images.githubusercontent.com/74687192/157399321-b2f8c995-0a61-4faa-bc9f-54df9ce36dbc.png)
+
+## Deployment Uygulama ( Ders 17 )
+
+- `kubectl create deployment firstdeployment --image=nginx:latest --replicas=2`
+- `kubectl get deployment`
+ tek bir pod bile yaratacak olsak bunu deployment ile yaratmanın daha doğru olduğu söyleniyor .
+- `kubectl set image deployment/firstdeployment nginx=httpd`
+set komutu ile objelerde birçok değeri değiştirebiliriz .
+- `kubectl scale deployment firstdeployment --replicas=5`
+
+![image](https://user-images.githubusercontent.com/74687192/157403378-753ed0f9-34bd-4ee9-a3a5-52acda06868d.png)
+- replicas => kaç replica oluşturması gerektiğini söylüyoruz .
+- selector => bak deployment senin yöneteceğin podlar bu lable özelliğine sahio olacak demektir .
+- template => deployment taradınfan oluşturulacak podların özelliklerini belirlediğimiz kısımdır .
+
+![image](https://user-images.githubusercontent.com/74687192/157403695-eb655ee5-6190-4eb3-9d25-554e2949a1df.png)
+
+metadata kısmı ve alt kısmının hepsini kopyala ve templatein sağ tarafına geçir . ve son olarakda metadata altındaki name anahtarını sil .
+
+![image](https://user-images.githubusercontent.com/74687192/157403996-4bab4b92-e610-4b02-b247-d5d77a8b17e1.png)
+
+her deployment objesinde farklı label ve selector kullanmamız gerekecek . 
