@@ -211,6 +211,23 @@ Objelere metadata eklemek için kullanabileceğimiz bir opsiyon olan labelları 
 
 `kubectl annotate pods annotationpod foo=bar` => labellar gibi
 
+## NameSpaces ( Ders 15 )
 
+kubernetes clusteri bu örnekteki fileserver olarak düşünürsek . Namespaceleride buranın altındaki folderlar olarak düşünebiliriz .
+
+![image](https://user-images.githubusercontent.com/74687192/157393359-94a59e9a-49bb-4f04-b810-a256e3400ac4.png)
+
+her kubernetes kurulumunda varsayılan olarak 4 namespace oluşturulur .
+- kube-system => kubernetes tarafından oluşturulan objelerin tutulduğu namespacedir
+- kube-public => kimliği doğrulanmamış olanlarda dahil tüm kullanıcılar tarafından erişilmesine ihtiyaç duyulan objelerin oluştutulabileceği yerdir .
+- kube-node-lease => 
+- default => biz aksini belirtmediğimiz sürece objeler burada oluşturulur 
+- `kubectl get pods --namespace kube-system`
+- `kubectl get pods --all-namespaces` 
+-  `kubectl create namespace app1`
+- `kubectl get pods -n development`
+-  `kubectl exec -it namespacepod -n development -- /bin/sh`
+biz istersek kubectl.configimizde varsayılan olarak başka bir namespacei tanımlayabiliriz .
+- `kubectl config set-context --current --namespace=development`
 
 
