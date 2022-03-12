@@ -415,3 +415,15 @@ containerlar siz aksini belirtmediğiniz sürece varsayılan olarak üstünde ç
 - Request altında tanımladığımız değerler şu anlama geliyor => bu podu en az şu kadar memory şu kadar cpu nun erişilebilir olduğu bir node üstünde scheduler et . Kısacası request kısmı bu podun oluşturulabilmesi için minimum ne kadarlık kaynağın olması gerektiğini belirtiyor 
 - Limits => bu containerin en fazla kullanabileceği sistem kaynağını belirtiyor .
 - `OOMKilled` => out of memory sonucu restart
+
+
+## Environment Variables 
+
+Ortama göre değişebilen ve hassas bilgileri container ımagelarına gömmek oldukça fazla sorun çıkartıyor .
+
+![image](https://user-images.githubusercontent.com/74687192/158023935-83aa34ba-2879-40f1-a154-58a66028321a.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158024015-f3c09436-7d17-44cb-891a-bfb39d0a90e9.png)
+
+- `kubectl port-forward pod/envpod 8080:80`
+- `curl 127.0.0.1:8080`
