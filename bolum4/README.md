@@ -388,3 +388,18 @@ buradaki sorgulama tamamen sizin uygulamanıza özel olarak kurgulanmalı .
 
 `kubectl describe pod liveness-http`
 
+
+## Readiness probes
+
+bu pod ayakta , içindeki uygulama çalışıyor ama daha henüz web sitemi sunmaya hazır değil dolayısıyla bu pod henüz loadBalancer servisine eklenmek için hazır değil 
+Peki ben bunun loadBalancer servisinden hizmet almaya hazır olduğunu nasıl anlıyacağım ? 
+
+
+![image](https://user-images.githubusercontent.com/74687192/158022376-4c56e688-4e0a-4eb1-81d0-82029d510c97.png)
+
+readiness servisinden olumlu feedback aldığı anda o pod loadbalancer servise eklenir ve trafik almaya başlar . 
+- Kısaca podun servis sunmaya hazır olduğunu belirtir .
+- terminationGracePeriodSeconds : o poda kendini düzgün kapatabilmesi için atadığımız süredir .
+
+![image](https://user-images.githubusercontent.com/74687192/158022608-45376f3b-11d6-4dfa-b5d0-102ae7b00817.png)
+
