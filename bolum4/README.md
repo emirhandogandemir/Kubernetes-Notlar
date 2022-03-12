@@ -367,3 +367,24 @@ biz bir service oluşturduğumuz zaman bu service endpoit adında bir obje oluş
 ![image](https://user-images.githubusercontent.com/74687192/158020330-352c4f4e-2831-4e9d-abcb-b6793a409e6d.png)
 
 `kubectl scale deployment frontend --replicas=5`
+
+## Liveness probes
+
+uygulama ayakta olmasına rağmen , yapması gereken işi yapmıyorsa kubelet bunu tespit edemiyor . bunun liveness probe adında çözümü var
+
+3 tane probe type ı ile healtcheck yapabiliriz .
+- httpGet
+- exec
+- tcpSocket
+
+![image](https://user-images.githubusercontent.com/74687192/158021789-1287ce73-81df-45e5-bb82-772e1ee3d084.png)
+
+
+![image](https://user-images.githubusercontent.com/74687192/158021912-3b07b01a-20b6-4623-b6e5-814738643948.png)
+
+buradaki sorgulama tamamen sizin uygulamanıza özel olarak kurgulanmalı . 
+- initialDelaySeconds => container başlatılsın burada belirttiğim süre kadar bekle ve sağlık kontrolüne bu süre sonunda başla 
+- periodSeconds => hangi aralıkla bunun yapması gerektiğini belirtiyoruz burada .
+
+`kubectl describe pod liveness-http`
+
