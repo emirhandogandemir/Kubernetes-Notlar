@@ -314,3 +314,26 @@ Uygulamalarımıızn birbirleri ile ve dış dünyadaki kaynaklar ile haberleşm
 ![image](https://user-images.githubusercontent.com/74687192/158017524-3c2ce261-35f2-4cf7-ac41-a3fde8dd9852.png)
 Burada işlenenler aslında k8s içerisinde olan ingress trafiğidir 
 
+
+## Service ( Ders 21)
+şuanda öğreneceğimiz objemiz işin network tarafı ile ilgili .
+
+![image](https://user-images.githubusercontent.com/74687192/158018240-609b944c-90bd-497e-9581-b4057e35857a.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158018255-50daccf7-1282-4360-9111-ed6fb7add01f.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158018448-c38f4672-205f-41d8-b7a5-faf7230a0db2.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158018456-52b58ccb-90a2-4e7a-a6a4-933593227084.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158018595-6ddb0d83-d325-463b-84e6-bbb302f2742d.png)
+
+CLusterIp serviceleri kubernetes altında basitde olsa , service discovery , load balancing hizmetleri sunan obje tipidir 
+
+![image](https://user-images.githubusercontent.com/74687192/158018698-d99461a0-8a91-4964-9958-531d32dc51b3.png)
+
+Service Types :
+- ClusterIp
+- NodePort
+- LoadBalancer
+- External Name
