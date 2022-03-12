@@ -277,3 +277,27 @@ eski replicatset podları yavaş yavaş sildi . Eskisi duruyor ama .
 ![image](https://user-images.githubusercontent.com/74687192/158015359-ad8d343a-7d61-4f38-a0db-d6ae5fc55f02.png)
 
 replicaset sadece tek başına olanı değiştirme işlemini yapmaz , sadece yeni bir pod yaratacak ise o zaman podları yeni imajdan yaratır.
+
+
+## Rollout ve Rollback 
+
+![image](https://user-images.githubusercontent.com/74687192/158015516-66d3ab05-219e-4c5f-a1c4-0558c752b504.png)
+ spec kısmı altında strategy kısmı altınde type key : value su bulunmakta biz burada . Biz burada deployment güncellendiği zaman rollout işlemlerinin nasıl yapılacağını ayarlıyoruz .
+
+2 Adet rollout stratejisi bulunmakta 
+- recreate = recreate şu anlama gelir , ben bu deploymentta bir değişiklik yaparsam öncelikle tüm mevcut podları sil ve bu işlem tamamlandıktan sonra yeni podları oluştur . major değişikliklerde recreate stratejisi seçilerek öncelikle tüm eski versiyonların sistemden kaldırılması ve yeni podların 
+yaratılması istenebilir .
+![image](https://user-images.githubusercontent.com/74687192/158016225-b9314ae6-b1a0-40dd-b9fb-333228029496.png)
+
+- rolling => siz eğer yaml dosyanızda bir strateji berlitmesseniz de default olarak rolling update kullanılır . Rolling update , recreatein tam tersidir . Ben bir değişiklik yaptığım zaman tüm podları silip yenisini oluşturma bunun yerine bu işi aşamalı olarak yap 
+- maxUnavailable => ben bir deploymentta bir değişiklik yaptığım zaman (geçiş sırasında)en fazla burada belirttiğim sayıda kadar podu sil .
+- maxSurge => bu geçiş sırasında toplam pod sayısının en fazla kaç olabileceğini gösterir .
+
+- `kubectl set image deployment rolldeployment nginx=httpd:alpine`
+
+- `kubectl rollout history deployment rolldeployment`
+- `kubectl rollout deployment rolldeployment --to-revision=3` => istediğim haline listede olana dönebiliyoruz .
+işte bizler bu sayede deployment üstünde yaptığımız güncellemeleri kataloglama ve sonrasındada geri dönme imkanına kavuşuruz 
+- `kubectl rollout status deployment rolldeployment -w` =>bazı durumlarda deploymentımızda canlı olarak neler olduğunu görmek isteyebiliriz o canlı görmek için de kullanacağımız yapı `status`dur.
+- `kubectl rollout pause deployment rolldeployment` => rolloutun ortasında bu komutu yazarsam olan o andaki rollout durduruluyor .
+
