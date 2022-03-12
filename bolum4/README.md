@@ -301,3 +301,16 @@ işte bizler bu sayede deployment üstünde yaptığımız güncellemeleri katal
 - `kubectl rollout status deployment rolldeployment -w` =>bazı durumlarda deploymentımızda canlı olarak neler olduğunu görmek isteyebiliriz o canlı görmek için de kullanacağımız yapı `status`dur.
 - `kubectl rollout pause deployment rolldeployment` => rolloutun ortasında bu komutu yazarsam olan o andaki rollout durduruluyor .
 
+## Kubernetes Ağ altyapısı (Ders 20 )
+
+Uygulamalarımıızn birbirleri ile ve dış dünyadaki kaynaklar ile haberleşmesi gerekiyor .
+
+![image](https://user-images.githubusercontent.com/74687192/158017155-8e338f53-622b-4c94-9f2b-625d50146852.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158017356-6a4e5f7c-bde3-4092-94b5-fb37cf122d4a.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158017443-7ebf68c3-1aa5-40bd-a8df-3d6646818e0f.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158017524-3c2ce261-35f2-4cf7-ac41-a3fde8dd9852.png)
+Burada işlenenler aslında k8s içerisinde olan ingress trafiğidir 
+
