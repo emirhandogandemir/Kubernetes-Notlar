@@ -262,3 +262,18 @@ metadata kısmı ve alt kısmının hepsini kopyala ve templatein sağ tarafına
 ![image](https://user-images.githubusercontent.com/74687192/157403996-4bab4b92-e610-4b02-b247-d5d77a8b17e1.png)
 
 her deployment objesinde farklı label ve selector kullanmamız gerekecek . 
+
+## ReplicaSet (Ders 18)
+
+bizlere podları direk yaratmaz Deployment gibi daha üst seviye objeler kullanırız ve bu objeler istediğimiz özellikte podlar yaratır
+
+![image](https://user-images.githubusercontent.com/74687192/158015130-ea5c0384-96a0-4d0a-963c-e276e31f9fa6.png)
+
+`kubectl get replicaset`
+bizim tüm podlarımızı replicaset  objesi yönetiyor.
+eski replicatset podları yavaş yavaş sildi . Eskisi duruyor ama .
+`kubectl rollout undo deployment firstdeployment`
+
+![image](https://user-images.githubusercontent.com/74687192/158015359-ad8d343a-7d61-4f38-a0db-d6ae5fc55f02.png)
+
+replicaset sadece tek başına olanı değiştirme işlemini yapmaz , sadece yeni bir pod yaratacak ise o zaman podları yeni imajdan yaratır.
