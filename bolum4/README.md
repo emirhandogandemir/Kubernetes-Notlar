@@ -337,3 +337,33 @@ Service Types :
 - NodePort
 - LoadBalancer
 - External Name
+
+## Service uygulama ( Ders 22)
+
+![image](https://user-images.githubusercontent.com/74687192/158019108-b5b29553-6850-403a-8ce7-22a15c95987b.png)
+
+biz selector kısmında app : backend valuesunu tanımlayarak service'e şunu diyoruz . git bu anahtar :değer veri eşleniğine sahip olan podları bul ve trafiği onlara yönlendir .yani service hangi podlara hizmet edeceğini service ile seçiyor .
+- port => bu serviceın dinleyeceği port
+- targetPort => podlarımızın expose ettiği porttur. 
+
+- `nslookup backend`
+k8s içinde core dns tabanlı bir dns hizmeti bulunur . Tüm podlar sorgularını buraya gönderir .Siz bir service oluşturduğunuz zaman onun isim ve ip adresi buraya kayıt olunur ve dolayısıyla tüm podlar bu isme air ip adresini öğrenebilirler .
+![image](https://user-images.githubusercontent.com/74687192/158019500-3c624288-27fa-4158-9a30-36b2bb846002.png)
+
+- `curl backend:5000`
+- `minikube service --url frontend` => bu nodePorta bir tünel açacak ve bize başka bir port üstünden buraya erişme imkanı verecek  
+- `curl http...`
+- `kubectl c
+- onfig use-context minikube`
+### kubectl aracılığı ilede oluşturabiliyoruz
+- `kubectl expose deployment backend --type=ClusterIP --name=backend`
+- `kubectl expose deployment frontend --type=NodePort --name=frontend`
+
+biz bir service oluşturduğumuz zaman bu service endpoit adında bir obje oluşturur ve bu endpoint objesi bizim belirlediğimiz selector tarafından seçilen podların IP adreslerini üstünde barındırır. Service trafiği nereye yönlendireceğini bu listeye göre düzenler .
+
+- `kubectl get endpointsku`
+- `kubectl describe endpoints frontend`
+
+![image](https://user-images.githubusercontent.com/74687192/158020330-352c4f4e-2831-4e9d-abcb-b6793a409e6d.png)
+
+`kubectl scale deployment frontend --replicas=5`
