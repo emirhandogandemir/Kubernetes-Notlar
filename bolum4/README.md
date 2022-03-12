@@ -403,3 +403,15 @@ readiness servisinden olumlu feedback aldığı anda o pod loadbalancer servise 
 
 ![image](https://user-images.githubusercontent.com/74687192/158022608-45376f3b-11d6-4dfa-b5d0-102ae7b00817.png)
 
+## Resource LImıts 
+
+containerlar siz aksini belirtmediğiniz sürece varsayılan olarak üstünde çalıştıkları hostun cpu ve memory kaynaklarına sınırsız şekilde erişebilirler . 
+
+![image](https://user-images.githubusercontent.com/74687192/158023334-1c422bd3-87b2-4cb8-a45e-b7d3274f3657.png)
+![image](https://user-images.githubusercontent.com/74687192/158023399-eadfde21-e4e4-4e19-8c15-3f03c85417e2.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158023433-606ad447-a73a-4f69-bbb3-955fdeca7192.png)
+
+- Request altında tanımladığımız değerler şu anlama geliyor => bu podu en az şu kadar memory şu kadar cpu nun erişilebilir olduğu bir node üstünde scheduler et . Kısacası request kısmı bu podun oluşturulabilmesi için minimum ne kadarlık kaynağın olması gerektiğini belirtiyor 
+- Limits => bu containerin en fazla kullanabileceği sistem kaynağını belirtiyor .
+- `OOMKilled` => out of memory sonucu restart
