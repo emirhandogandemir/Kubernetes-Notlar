@@ -38,3 +38,14 @@ ic mysecret3 --from-file=db_server=server.txt --from-file=db_username=username.t
 biz bu secretlaerı pod içerisinden okunabilmesi için oluşturduk peki o kısım nasıl yani bunları o poda nasıl ekleyebilirim . burada 2 seçenek var ya bunları o poda volume aracılığı ile aktarır ya da bu değerleri environment variable olarak geçerim.
 
 secretlar bizlerin uygulama ile hassas verilerin ayrılmasına imkan tanır . secretlar vasıstası ile hassas verilerimizi container imagelarından ve yaml dosyalarından ayırabiliyoruz .
+
+## ConfigMap ( Ders 3 )
+
+![image](https://user-images.githubusercontent.com/74687192/158579247-0184d6b7-eff6-483d-a22a-432096ec4ce2.png)
+
+- `kubectl create configmap my
+configmap --from-literal=background=blue --from-file=a.txt`
+- `kubectl get configmaps`
+- `kubectl exec -it configmapp
+od -- bash`
+
