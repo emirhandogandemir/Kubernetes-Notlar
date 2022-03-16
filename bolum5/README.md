@@ -70,3 +70,18 @@ IgnoredDuringExecution => pod bir kere schedule edildikten sonra çalışmaya de
 
 - `kubectl get nodes`
 - `kubectl label node minikube app=blue`
+
+
+
+
+## Pod Affinity ( Ders 5 )
+
+Bazı durumlarda podumuzun workernodeda çalışan başka bir podun olması ya da olmaması durumuna göre schedule edilmesini isteyebiliriz .
+
+![image](https://user-images.githubusercontent.com/74687192/158600888-1b11ab36-0b40-4075-a469-e87a0874be50.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158601434-b6f95410-5d00-476e-aaf4-5fae8a02d170.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158601768-860e6223-d8b4-4ae4-bd4b-50404265da83.png)
+
+clusterımız büyükse ve farklı farklı availability zonelar bulmam gerekiyorsa pod affinity kullanışlı olabiliyor . 
