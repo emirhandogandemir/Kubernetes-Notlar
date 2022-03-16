@@ -49,3 +49,24 @@ configmap --from-literal=background=blue --from-file=a.txt`
 - `kubectl exec -it configmapp
 od -- bash`
 
+
+
+## Node affinity ( Ders 4 )
+
+NodeSelector sayesinde biz bir podu istediğimiz bir node üstünde oluşturma imkanına sahip oluruz . Bu bölümde podlarımızın uygun  worker nodelar üstünde oluşturulması için kullanabileceğimiz ve nodeSelectorden daha fazla opsiyon sunan 
+node affinity konusuna göz atacağız .
+
+![image](https://user-images.githubusercontent.com/74687192/158590114-6f0d620f-05d5-46be-ad82-d97aa0e56b06.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158591809-fc9f533b-8893-4789-bd73-e8bb5287f03a.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158591833-5d5eeba0-1a58-477b-bd3d-6fdbf5dcd521.png)
+
+required tanımı , mutlaka bu şart yerine getirilmeli demek oluyor .
+
+preferred tanımı , ben burada bir tanım yapıyorum önceliğin buna göre bir node bulmak olsun ama bulamazsan da pending durumunda bekleme farklı bir worker node üzerinde oluştur .
+
+IgnoredDuringExecution => pod bir kere schedule edildikten sonra çalışmaya devam etsin manasına gelmektedir .
+
+- `kubectl get nodes`
+- `kubectl label node minikube app=blue`
