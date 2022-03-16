@@ -85,3 +85,24 @@ Bazı durumlarda podumuzun workernodeda çalışan başka bir podun olması ya d
 ![image](https://user-images.githubusercontent.com/74687192/158601768-860e6223-d8b4-4ae4-bd4b-50404265da83.png)
 
 clusterımız büyükse ve farklı farklı availability zonelar bulmam gerekiyorsa pod affinity kullanışlı olabiliyor . 
+
+## Taint ve Toleration ( Ders 6 )
+
+pod affinity ve node affinity poda göre bir tanımdır . ama blue olarak işaretlenmiş worker node da sadece blue uygulamasına ait kaynakların çalışmasını isterseniz bunu affinityler ile yapamazsınız . affinity tanımları podun nerede schedule edileceğini belirtir . 
+
+
+![image](https://user-images.githubusercontent.com/74687192/158609142-f6f3b0e3-ea8e-4641-8ca1-5d33b3985e84.png)
+
+- 1) NoSchedule
+- 2) PreferNOSchedule
+- 3) NoExecute
+Taint kısıtı yok ise her podu kabul edecektir bu pod olarak anlayabiliriz .
+
+- `kubectl taint node minikube
+ platform=production:NoSchedule`
+
+- `kubectl taint node minikube kubeplatform-`
+
+![image](https://user-images.githubusercontent.com/74687192/158612275-de482ac8-0711-4adc-a576-103ef264882d.png)
+
+- `kubectl taint node minikube color=blue:NoExecute`
