@@ -152,3 +152,14 @@ Access modeslar eşleşmek zorunda .
 
 - `kubectl get pvc`
 
+## Storage Class ( Ders 10 )
+
+![image](https://user-images.githubusercontent.com/74687192/158794082-80700485-96b6-440f-a876-46c12e83bd53.png)
+
+siz pvc oluşturduğunuz anda depolama ünitenizle haberleşerek gerekli ayarları yaparak size bir volume ve persistent volume objesi oluşturan yeni bir mekanizma geliştirdi . Bu mekanizmanın adı storage class . yani uzun lafın kısası persistent volume'u manuel oluşturmak yerine claim'e göre dinamik oluşturma imkanı getirdi .
+
+- `kubectl get storageclass`
+
+![image](https://user-images.githubusercontent.com/74687192/158797498-b1ba7646-ec21-4628-bf00-52160c2afb14.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158797548-175d8a86-83f1-4332-a87a-1c840132a869.png)
