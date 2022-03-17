@@ -138,3 +138,17 @@ Biz bir volume 'ü direkt olarak bir pod ile eşleştirme imkanına sahiğ deği
 ![image](https://user-images.githubusercontent.com/74687192/158762992-08571e4c-a521-4f7c-b1e0-62cd6428313c.png)
 
 ![image](https://user-images.githubusercontent.com/74687192/158763114-25608c16-7b1a-4646-9041-e268d81608fc.png)
+
+## Pv ve Pvc Uygulama ( Ders 9)
+
+Docker volume oluşturduk ve onun network ayarlarını gerçekleştirdik .
+
+- `kubectl apply -f pv.yaml`
+- `kubectl get pv`
+
+persistent volume yaratılması ve onun öncesindeki kısım sistem yöneticilerini ilgilendiriyor . Persistent volume claim ve sonrası onun kullanımını developerlar ilgileniyor .
+
+Access modeslar eşleşmek zorunda .
+
+- `kubectl get pvc`
+
