@@ -106,3 +106,16 @@ Taint kısıtı yok ise her podu kabul edecektir bu pod olarak anlayabiliriz .
 ![image](https://user-images.githubusercontent.com/74687192/158612275-de482ac8-0711-4adc-a576-103ef264882d.png)
 
 - `kubectl taint node minikube color=blue:NoExecute`
+
+
+## DaemonSet ( Ders 7 )
+
+![image](https://user-images.githubusercontent.com/74687192/158660205-3904e531-1632-448e-8bb7-6dd9343b9b13.png)
+
+varsayılan olarak her node üstünde bir pod oluşturulur .ama biz bunu değiştirerek sadece belirli tipler üstündeki nodelar üstünde oluşturulmasını sağlayabiliriz .
+Örnek olarak log toplama uygulamaları gibi uygulamarı kolay şekilde deploy edilmesini sağlar .
+
+![image](https://user-images.githubusercontent.com/74687192/158661056-5de0d519-1a02-4f1f-b3e8-b90611b8dc7f.png)
+
+- `minikube node add` 
+
