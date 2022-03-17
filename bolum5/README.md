@@ -119,3 +119,22 @@ varsayılan olarak her node üstünde bir pod oluşturulur .ama biz bunu değiş
 
 - `minikube node add` 
 
+## Persistent Volume ve Persistent Volume Claim ( Ders 8 )
+
+Bu bölümde podun yaşam süresinden bağımsız şekilde olan volumeleri göreceğiz .
+
+podlar içerisinde sorun çıkması ve deployment objesi gibi yapıları ile containerın restart pozisyona gelmesi `Ephemeral volume` ile çözülebiliyordu zaten . peki ya podun çalıştığı worker node üzerinde bir sorun ile karşılaşırsak ne olacak ? deployment objesi podumuzun çalışabileceği yeni bir worker node'a yönlendirecek ve bizim ephemeral volume'umuz ortadan kaybolacak :( . bunun bir tek çözümü var bizim cluster dışında vuran ama tüm worker nodela tarafından ulaşılabilen bir yerde tutabilmemiz lazım . 
+
+![image](https://user-images.githubusercontent.com/74687192/158760059-8bd3e42b-adc4-4b4c-9385-167e7a68b2b9.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158760182-7a9103a7-cde3-4a7b-b9e3-656d77158f92.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158760343-bc87f9d8-02f9-4289-8233-5611378486df.png)
+
+K8s altında nfsdriverları bulunduğu için ek bir drive yüklememize gerek kalmadan bu iki ortam birbiri ile görüşebilir durumda .
+
+Biz bir volume 'ü direkt olarak bir pod ile eşleştirme imkanına sahiğ değiliz fakat şunu bilmeliyiz ki bir volume'ü bir poda bağlamak için öncesinde persistent volume claim dediğimiz bir obje daha yaratmalıyız .
+
+![image](https://user-images.githubusercontent.com/74687192/158762992-08571e4c-a521-4f7c-b1e0-62cd6428313c.png)
+
+![image](https://user-images.githubusercontent.com/74687192/158763114-25608c16-7b1a-4646-9041-e268d81608fc.png)
