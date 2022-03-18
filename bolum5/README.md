@@ -206,3 +206,9 @@ ClusterIp => none , buna headless service diyoruz .Bunu oluşturduğumuz anda cl
 - `kubectl logs pod-name`
 
 - `kubectl delete jobs.batch pi`
+
+## CronJob ( Ders 13 )
+
+![image](https://user-images.githubusercontent.com/74687192/159027235-22f11ab6-5970-4e9b-8c7b-8b58059e2d6b.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159027451-6731a3f7-5f63-4018-aecb-63a59c3c103c.png)
