@@ -163,3 +163,27 @@ siz pvc oluşturduğunuz anda depolama ünitenizle haberleşerek gerekli ayarlar
 ![image](https://user-images.githubusercontent.com/74687192/158797498-b1ba7646-ec21-4628-bf00-52160c2afb14.png)
 
 ![image](https://user-images.githubusercontent.com/74687192/158797548-175d8a86-83f1-4332-a87a-1c840132a869.png)
+
+## StatefulSet ( Ders 11 )
+
+Sorun state tutan yapılarda örneğin cassandra kurulumunda master pod olan ve diğer worker nodeların dağılımında 
+
+
+
+![image](https://user-images.githubusercontent.com/74687192/159019794-f380168b-de4f-4898-b4cc-8c349992367f.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159019890-9e9369e0-a121-48ee-b0c5-f62e89e67ed2.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159020541-e0f0441a-6f9c-4d16-8933-3c1328ba5658.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159021495-213fdb99-dc82-4b59-b456-e1494868b09c.png)
+
+her pod için bu özelliklerde bir pvc oluşturulmasını söylüyoruz . Bu pcvler de standart isimli storageclassı kullanarak her bir pod için birer pv oluşturacak . yani her podun aynı pv'ye bağlanması yerine her poda ayrı bir pv yaratılacak ve bunuda yaratacak pvcleride burada template ile yapıyoruz .
+
+ClusterIp => none , buna headless service diyoruz .Bunu oluşturduğumuz anda clusterIP tipinde bir service oluşturulacak fakat ona bir Ip atanmayacak . Ben ne zaman bu service ismine gitmek istersem o bana bu servis altındaki podlardan bir tanesinin IP adresini dönecek bunun yanında her bir poda da 
+`pod ismi.service ismi` şeklinde erişebilme imkanı da verecek .
+
+- `kubectl scale statefulset cassandra --replicas=5`
+- `kubectl delete pod cassandra-2`
+
+- `Headless service`
