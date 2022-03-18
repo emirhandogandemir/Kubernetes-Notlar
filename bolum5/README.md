@@ -187,3 +187,22 @@ ClusterIp => none , buna headless service diyoruz .Bunu oluşturduğumuz anda cl
 - `kubectl delete pod cassandra-2`
 
 - `Headless service`
+
+## Job ( Ders 12 )
+
+![image](https://user-images.githubusercontent.com/74687192/159025179-220f7902-4b28-4ec1-9501-f66e8cf994a6.png)
+
+- 1) tek seferlik yapması gereken işi yapıp kapanması gereken uygulamalarımızı job olarak deploy ederiz .
+- 2) bir kuyruk ya da bucketta işlenmesi gereken birçok işimiz olduğunda bunları eritmek adına bunlar eriyene kadar çalışacak uygulamaları job şeklinde deploy ederiz 
+
+
+![image](https://user-images.githubusercontent.com/74687192/159026335-060c04b3-02f6-44de-b932-f6758abbc66f.png)
+
+- `watch kubectl get jobs`
+
+- backoffLimit = toplam kaç kere hata olursa tüm işlemleri bırakarak jobun fail etmesini istediğimizi söylediğimiz kısım .
+- activeDeadlineSeconds => fail sayısı yerine saniye tarzından veriliyor .eğer bu görev 100 saniye içerisinde tamamlanmazsa anla ki sıkıntı var ve jobu fail et diyorum .
+
+- `kubectl logs pod-name`
+
+- `kubectl delete jobs.batch pi`
