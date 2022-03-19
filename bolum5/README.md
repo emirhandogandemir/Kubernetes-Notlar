@@ -287,3 +287,27 @@ biz bir service account oluşturduğumuz zaman bu service account için bir secr
 - `curl --insecure https://kubernetes --header "Authorization:Bearer $TOKEN"`
 - `curl --insecure https://kubernetes/api/v1/namespaces/default/pods --header "Authorization:Bearer $TOKEN"`
 - `curl --insecure https://kubernetes/api/v1/namespaces/default/pods --header "Authorization:Bearer $TOKEN" | jq '.items[].metadata.name`
+
+## Ingress ( Ders 17 )
+
+
+
+- 1 ) her service için ayrı bir loadBalancer yaratmak ilk sorun
+
+
+ bu iki sorunu da ingress controller ve ingress objeleri ile çözüyoruz .
+
+- windows üzerine geçip çalışılan default driver olan dockerı değiştirdik 
+- minikube start --driver=hyperv
+ingress için bizim ilk başta bir ingress controller kurmamız gerekiyor (nginx,haproxy).
+her ingress controllerın kurulumu farklıdır . o yüzden dökumanlarını inceleyip ona göre kurulum yapmamız gerekir .
+- `minikube addons list`
+- `minikube addons enable ingress`
+
+artık clusterımızın giriş noktası burası . tüm servicelerimizi artık bunun üstünden dış dünyaya açıcaz ama nasıl ?
+
+cluster içinden erişmek => clusterIp ama ben bunlara dış dünyadan erişilsin dersem bunları LoadBalancer tipine çeviricem . 
+
+clustera deploy ettiğiniz ingress contrelların üstünde herhangi bir ayar yapmak isterseniz de bunu hemen hemen tüm ingress controller için annotationlar ile yapabilirsiniz .
+tek bir ingress tanımlamak zorunda değiliz . birden fazla tanımlarsak ingress controller bunları görecek ve gerekli ayarlamalar yapılacak .
+- `kubectl get ingress`
