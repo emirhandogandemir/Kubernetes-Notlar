@@ -244,3 +244,28 @@ r.key -out emirhandogandemir.csr -subj "/CN=emirhandgndmr51@gmail.com/O=DevMille
 - `kubectl config use-context emirhandogandemir-context`
 
 şu ana kadar yaptığımız işlemler bir kullanıcının doğrulanmasını yaparak kubernetese bağlanmasını sağlamak ile ilgiliydi . varsayılan olarak her kullanıcı 0 yetki ile gelir ve listeleme dahil hiçbir işlem yapamaz . 
+
+
+## Role Based Access Control "RBAC"
+
+![image](https://user-images.githubusercontent.com/74687192/159116177-5ee2fef0-ac82-4938-8c15-e15acaa16dab.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159116241-b83beb13-7942-4778-95d3-7ad2965df87d.png)
+
+kullanıcılar sadece bind edildikleri rollere sahiptirler .
+
+![image](https://user-images.githubusercontent.com/74687192/159116301-d5744dc3-dab1-45eb-aff1-28f3d36989fd.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159116308-f6934435-1bfd-411e-a3b7-b2e7c88eafb1.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159116314-ad3f8cfe-7ee5-4baf-848f-d9ab73092089.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159116432-6f7673d8-36c3-41c5-a8ea-b5b9da605fac.png)
+
+tanımlar rules altında yapıllır . burada role'e atanan yetkiler konur .
+
+![image](https://user-images.githubusercontent.com/74687192/159116551-7e7066e1-7d7e-4c67-a6b2-6cafd4a0eb04.png)
+
+![image](https://user-images.githubusercontent.com/74687192/159116587-aed59eef-212f-4984-a316-db5b80dae201.png)
+
+- `kubectl apply -f .`
