@@ -212,3 +212,35 @@ ClusterIp => none , buna headless service diyoruz .Bunu oluşturduğumuz anda cl
 ![image](https://user-images.githubusercontent.com/74687192/159027235-22f11ab6-5970-4e9b-8c7b-8b58059e2d6b.png)
 
 ![image](https://user-images.githubusercontent.com/74687192/159027451-6731a3f7-5f63-4018-aecb-63a59c3c103c.png)
+
+## Authentication ( Ders 14 )
+
+![image](https://user-images.githubusercontent.com/74687192/159114692-ec872c97-d2e7-4619-8d00-33f5ef48f37f.png)
+
+k8sde kullanıcı oluşturma ve kimlik doğrulama işi cluster dışında halledilecek şekilde tasarlanmıştır .KubeAPi server ayarlarında bu altyapılardan hangilerini kullanacağınızı belirlersiniz .Her k8s clusterında kök sertifika yetkilisi bulunur .Kimliğin doğrulanması bir kullanıcının cluster üzerinde her işi yapabileceği anlamına gelmez . 
+
+varsayılan olarak minikube X509 client certificationları ile kimlik doğrulama yapacak şekilde tasarlanmıştır . 
+
+Developer olarak sertifkiasyon yaratma işlemleri :
+- `mkdir minikubecrt`
+- `cd minikubecrt`
+- `opensll genrsa -out emirhandogandemir.key 2048gn` => private key oluşturma işlemini bu şekilde gerçekleştirdim
+- `ls`
+- artık anahtarımız hazır 2.noktaya geçiyoruz . 2.aşama =>bu anahtarı kullanarak bir certificate signing request yani csr hazırlamam gerekicek .
+- csr => bizlerin certificate authoritye sertifika sağlayıcıya gönderip bak bana bu özelliklerde bir dijital sertifika sağla dememize imkan veren dosyalardır . Bu dosyayı oluşturacak ve ardından bu dosyayı admine göndereceğiz . oda k8s'in certificate authoritysi ile bunu onaylayıp imzalayarak bizim sertifikamızı oluşturacak ve bize bir sertifika gönderecektir ve bizde bunu kullanarak kubernetese bağlanacağız . 
+- `openssl req -new -key emirhandogandemi
+r.key -out emirhandogandemir.csr -subj "/CN=emirhandgndmr51@gmail.com/O=DevMillennium"`
+- Cn ile belirlenen kısım kullanıcı adımız , O ile belirlenen alan => bu kullanıcının hangi gruplara üye olacağını belirleyecek .
+- şu aşamada developer olarak yapmam gerekeni yaptım bundan sonra k8s admine göndereceğim .
+- `kubectl get csr`
+- `kubectl certificate approve emirhandogandemir`
+- `kubectl get csr emirhandogandemir -o`
+- `kubectl get csr emirhandogandemir -o jsonpath='{status.certificate}' | base64 -d >> emirhandogandemir.crt`
+- developera crt şeklinde elde ettiğimiz sertifikayı gönderiyoruz .
+- sertifikam hazır artık bu sertifika ile kubectl config ayarlarını yaparsam kubernetes clusterına bağlanabilirim .
+- `kubectl config set-credentials emirhandgndmr51@gmail.com --client-certicate=emirhandogandemir.crt --client-key=emirhandogandemir.key` =>emirhandogandemir adlı kulanıcı set edildi diyecektir bana .
+- kullanıcıyı yarattık bir de bu kullanıcıyı minikube clusterımız ile ilişkilendirmemiz gerekiyor . onun için de bir tane context oluşturmam gerekiyor .
+- `kubectl config set-context emirhandogandemir-context --cluster=minikube --user=emirhandgndmr51@gmail.com`
+- `kubectl config use-context emirhandogandemir-context`
+
+şu ana kadar yaptığımız işlemler bir kullanıcının doğrulanmasını yaparak kubernetese bağlanmasını sağlamak ile ilgiliydi . varsayılan olarak her kullanıcı 0 yetki ile gelir ve listeleme dahil hiçbir işlem yapamaz . 
