@@ -269,3 +269,21 @@ tanımlar rules altında yapıllır . burada role'e atanan yetkiler konur .
 ![image](https://user-images.githubusercontent.com/74687192/159116587-aed59eef-212f-4984-a316-db5b80dae201.png)
 
 - `kubectl apply -f .`
+
+## Service Account ( Ders 16 )
+
+![image](https://user-images.githubusercontent.com/74687192/159117011-ffdb7f4d-1a73-4f58-851f-350dfe6522dd.png)
+
+uygulamaların authenticate olması için service accountlar var .
+![image](https://user-images.githubusercontent.com/74687192/159117118-f623f9ff-8360-4cec-86dd-698f5982f9a1.png)
+
+- `kubectl get sa`
+- `kubectl exec -it testpod -- bash`
+- 
+biz bir service account oluşturduğumuz zaman bu service account için bir secret oluşturulur .
+
+- `curl --insecure https://kubernetes`
+- `TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)`
+- `curl --insecure https://kubernetes --header "Authorization:Bearer $TOKEN"`
+- `curl --insecure https://kubernetes/api/v1/namespaces/default/pods --header "Authorization:Bearer $TOKEN"`
+- `curl --insecure https://kubernetes/api/v1/namespaces/default/pods --header "Authorization:Bearer $TOKEN" | jq '.items[].metadata.name`
