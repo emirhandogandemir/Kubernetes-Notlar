@@ -1,3 +1,3 @@
 - 1 ) minikube node add komutunu 4 kere çalıştırarak . 1. isteri elde ediyoruz .
 - 2 ) [production-namespace](https://github.com/emirhandogandemir/Kubernetes-Notlar/blob/master/Proje/solution/production-namespace.yaml) , [test-namespace](https://github.com/emirhandogandemir/Kubernetes-Notlar/blob/master/Proje/solution/test-namespace.yaml)
-- 3 ) emirhandgndmr51@gmail.com ismine sahip junior grubunda olan yapı kurdum . emirhandgndmr@mail.com.tr ismine sahip senior grubunda olan bir yapı kurarak . Role -RoleBinding. Cluster-Role, ClusterRoleBindingleri bu iki developer üzerinden düşünerek kurguladım 
+- 3 ) emirhandgndmr51@gmail.com ismine sahip junior grubunda olan yapı kurdum . yavuz@gmail.com ismine sahip senior grubunda olan bir yapı kurarak . Role -RoleBinding. Cluster-Role, ClusterRoleBindingleri bu iki developer üzerinden düşünerek kurguladım 
