@@ -1,9 +1,8 @@
 apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
+kind: ClusterRole
 metadata:
-  namespace: test
-  name: senior-test-role
+  name: senior-cluster-role
 rules:
 - apiGroups: [""]
   resources: ["*"]
-  verbs: ["get","watch","list"]
+  verbs: ["get","list"]
