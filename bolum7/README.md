@@ -59,3 +59,28 @@ ingress içerisinde 3 tane kullanım durumu var . örnekte bunların 3 ünüde k
 - 3 ) podSelector
 birden fazla policy varsa ne olacak sorusuna ise birlikte birleştirilerek assign edilir olarak düşünebiliriz .
 bizim network policyleri kullanabilmemiz için ayrıyeten network policiy destekli bir CNI kullanmamız gerekir `calico gibi`
+
+# Helm ( Ders 5 )
+
+ben bir uygulamayı kubernetes üzerinde kurulabilecek şekilde bir paket haline getirseydim ve insanlar da bu paketi kubernetese kursalardı sanırım daha mantıklı olurdu .Helm bize kubernetes üzerinde paket yükleme imkanı sağlıyor .
+
+brew => linuxa paket kurmamızı sağlıyordu . biz bunlara paket yöneticileri diyorduk . bu paket yöneticilerinin kubernetes için olanına da biz `helm` diyoruz . bizim uygulamalarımızı paketler haline getirmemizi ve bu paketleri tek bir komutla kubernetese yüklememizi sağlıyor .bre
+
+- `brew install helm`
+ ilk olarak helmde bilmemiz gereken önemli 3 tane kısım var 
+- 1 ) helmde ilk bilmemiz gereken kavram `chart` kavramı , sizin kubernetes üzerine yükleyebildiğiniz uygulamanın paketlenmiş haline biz chart diyoruz . 
+- 2 ) chart paketin kendi adı , releasede siz bunu kubernetes clusterınıza yüklediğinizde verilen isim .
+- 3 ) repository dediğimiz şey bu helm chartların birlikte tutulduğu yerler .Mesela ben bir tane repository ekliyorum bu repository altına çeşitli helm chartlar ekleyebiliyorum . 
+
+### Arama Kısmı 
+- `helm search hub wordpress` => artifact hub
+- `helm search repo wordpress` => bu bilgisayara eklenmiş repositoryler 
+### Yükleme Kısmı
+- ilk başta sistem hangi charı release edeceğini bilmesi gerektiği için sistemde repoyu eklemem gerekir 
+- `helm install "release ismi" "kuracağım chart"`
+### -
+- `helm status wordpress`
+- `helm show values bitnami/wordpress` => default ayarlar yerine kullanabileceğim ayarları bu komut ile görebiliyorum buna göre bi aksiyon izleyebiliyorum .
+- `helm uninstall wordpress`
+- `helm upgrade`
+- `helm rollback revizyon adı` => hangi revizyona geri dönmek istiyorsak
