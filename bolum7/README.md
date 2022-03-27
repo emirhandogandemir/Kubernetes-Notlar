@@ -28,3 +28,12 @@ peki bu şekilde secretimizi oluşturuk bunu pod tanımlarında nasıl kullanağ
 - 3 ) `IfNotPresent` => öncelikle locale bakacak varsa ordan çekecek yoksa eğer çekmeye çalışacak .
 
 eğer latest tagli bir image kullanıyor isek k8s default olarak ImagePullPolicyi `Always` olarak set ediyor . latest dışında bir şey kullanıyorsam k8s onu `IfNotPresent` olarak defaultta set ediyor .
+
+# Static Pod ( Ders 3 )
+kubernetesde üzerinde bir tane daha pod oluşturma yöntemimiz var bunada static pod diyoruz. Kubelet çalıştığı nodeun üzerinde bir klasör belirleyebiliyorsunuz nu klasörün içerisine yaml dosyaları şeklinde pod tanımlarınızı koyarsanız kubelet o node'un üzerinde bu podları ayağa kaldırabiliyor .
+
+kubeletin tek işi => container engine konuşarak container oluşturmak yani pod oluşturmak.
+
+varsayılan olarak :
+etcd-> kubernetes -> manifest 
+biz bir makineye ilk önce kubeleti kuruyoruz . sonrasında kubelet izlediği folderdan kubernetesi ayağa kaldırıyor . işte biz buna static pod diyoruz .
