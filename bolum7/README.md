@@ -37,3 +37,25 @@ kubeletin tek işi => container engine konuşarak container oluşturmak yani pod
 varsayılan olarak :
 etcd-> kubernetes -> manifest 
 biz bir makineye ilk önce kubeleti kuruyoruz . sonrasında kubelet izlediği folderdan kubernetesi ayağa kaldırıyor . işte biz buna static pod diyoruz .
+
+# Network Policy ( Ders 4 )
+
+-  k8s cluster altında her podun kendine özgü bir uniq idsi bulunmakta .
+- bütün podlar birberleri arasında arada NAT olmadan haberleşebilmeleri gerekiyor . 
+- bütün podlar diğer podlarla varsayılan olarak haberleşebiliyor olmaları gerekiyordu . 
+- bunun dışında podlar worker nodeun erişebildiği her yerde erişebiliyor olmaları gerekiyordu .
+
+biz buraya bir kısıtlama getirmek istiyor olabiliriz . mesela frontend podu sadece backend podu ile konuşabilsin vesaire gibi düşünebiliriz . biz yani k8s network altyapısında default olan ayarları bu Network Policy objesi ile değiştiriyor olacağız .
+![image](https://user-images.githubusercontent.com/74687192/160276688-44c239ff-5fd7-4914-8e90-123ecc8fa829.png)
+
+- biz bir network policy yaratırız , sonrasında bu network policyinin hangi podlar üzerinde etkili olacağına `podSelector`
+ile seçeriz .
+- öncelikle policyType belirliyoruz . 2 tane policyType belirliyoruz 
+- 1 ) `Ingress` => benim selector ile seçtiğim podlara doğru gelen trafik anlamına geliyor .
+- 2 ) `Egress` => podselector ile seçtiğim podlardan dış dünyaya doğru gidecek trafik ile ilgilidir .
+ingress içerisinde 3 tane kullanım durumu var . örnekte bunların 3 ünüde koyulmuş lakin 3 ünüde kullanmak zorunda değiliz .
+- 1) ipBlock  
+- 2 ) namespaceSelector
+- 3 ) podSelector
+birden fazla policy varsa ne olacak sorusuna ise birlikte birleştirilerek assign edilir olarak düşünebiliriz .
+bizim network policyleri kullanabilmemiz için ayrıyeten network policiy destekli bir CNI kullanmamız gerekir `calico gibi`
