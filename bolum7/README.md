@@ -112,3 +112,8 @@ Grafanayıda görselleştirme aracı olarak düşünebiliriz ..
 
 kube-prometheus-stack.md deki oluşturulan adımları izledim .
 adminin yapacağı işi operatörler yazarak otomatik hale getiriyoruz .
+
+promethesusa özel queryler ile bilgileri çekebiliyoruz . bu bilgileri görselleştirmek ise grafana üzerinden yapılacak . 
+kullanmak istediğin grafana dashboard linkinin idsini kopyala . grafanada importdan idsi kullanıyorsun
+
+
