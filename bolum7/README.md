@@ -84,3 +84,31 @@ brew => linuxa paket kurmamızı sağlıyordu . biz bunlara paket yöneticileri 
 - `helm uninstall wordpress`
 - `helm upgrade`
 - `helm rollback revizyon adı` => hangi revizyona geri dönmek istiyorsak
+
+## Monitoring (Prometheus Stack)
+
+kubernetes özelişnde monitoring işleri için 4 farklı yer var olarak söyleyebiliriz özelliklede production ortamlarında.
+- 1) kubernetes cluster durumu o an nasıl çalışıyor
+- 2 ) objelerin mevcut durumu
+- 3 ) nodeların izlenmesi
+- 4 ) containerların içerisinde çalışan uygulamarın logları durumları
+
+- `kubectl get pods`
+- `kubectl get all -A`
+- `kubectl describe pods firstpod` => spesifik podun durumu ile alakalı
+-  `kubectl get events -A` => tüm eventsleri gözlemliyoruz cluster üzerinde
+- `kubectl top node`
+- `kubectl top pod`
+- `kubectl logs "pod-ismi"` => şeklinde kullanılabilir 
+
+ama tabi production ortamlarda biz bunları manuel olarak çekersek bunlar yönetilmez hale gelebilir . benim merkezi bir loglama sunucusu veya merkezi bir metric sunucusu bulup bu logları k8s clusterından bu sunucuya çekmem buna göre de artık görselleştirmem yada alert göndermem gibi olabilir . prometheus neredeyse k8s'in standart metric toplama aracı haline gelmiştir .
+
+![image](https://user-images.githubusercontent.com/74687192/160699603-f36e4b64-e0e1-4a2f-b43c-9802148a07fb.png)
+
+- `kubernetes metrics kurmamız gerekir bu kube api ile konuşarak objelerin mevcut durumu ile ilgili metricleri kubernetes apindan çekip prometheus için çekilebilecek duruma getiriyor.`
+- `node'un cpu durumu node'un disk durumu node ile ilgili memory durumu vesaire node metriclerini de linux kernelinden çekmek istiyorsak bizim bu nodeların üstünde node exporter kurmamız gerekiyor.`
+
+Grafanayıda görselleştirme aracı olarak düşünebiliriz ..
+
+kube-prometheus-stack.md deki oluşturulan adımları izledim .
+adminin yapacağı işi operatörler yazarak otomatik hale getiriyoruz .
