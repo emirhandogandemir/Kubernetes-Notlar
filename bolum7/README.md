@@ -132,3 +132,17 @@ microservice mimarisinin kendi arasında haberleşmesinde de sıkıntılar var .
 - reliabity sağlayan bir platform .
 bu alanda 2 tane öenmli oyuncu var 1) Istio 2) Lınkerd
 ![image](https://user-images.githubusercontent.com/74687192/160847008-774dce95-970e-4c0a-ae69-875fcff69bc9.png)
+
+
+# CRD ve Operatör
+
+biz kubernetes üzerinde olan objeler dışında da custom objeler yaratabiliyoruz .Kendi obje tipimi kubernetes üzerinde tutabiliyorum .
+
+![image](https://user-images.githubusercontent.com/74687192/160854284-18e91471-0f77-4366-a168-bdbffadd855c.png)
+
+bu obje ile beraber bu objeyi gözlemleyecek vesaire bir controller(operatör) yaratırsam mantıklı oluyor .
+
+Operatör = > kubernetes clusterında yapılan işlerin otomatize edildiği uygulamalar olarak düşünebiliriz .
+
+obje kısmını CRD ile halledebiliyorken , otomatize kısmını Operatörler ile hallediyorum.
+
