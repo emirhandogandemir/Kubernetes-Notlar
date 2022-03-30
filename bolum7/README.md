@@ -116,4 +116,5 @@ adminin yapacağı işi operatörler yazarak otomatik hale getiriyoruz .
 promethesusa özel queryler ile bilgileri çekebiliyoruz . bu bilgileri görselleştirmek ise grafana üzerinden yapılacak . 
 kullanmak istediğin grafana dashboard linkinin idsini kopyala . grafanada importdan idsi kullanıyorsun
 
-
+# Monitoring ( EFK Stack )
+uygulamaların oluşturduğu logları prometheus üzerinde gösterebilmek , prometheusa aktarmak biraz zor . Biz bunun için başka bir stack kullanıyoruz . Logları toplamak için fluentd kullanıyor olacağız . Biz fluentd yi bir daemonset olarak clusterımıza deploy edeceğiz . BU her worker node'ın üzerinde instance olacak şekilde çalışacak ve bizim containerlarımızın oluşturduğu logları fluentd topluacak .ve bunları elasticSearche gönderecek 
