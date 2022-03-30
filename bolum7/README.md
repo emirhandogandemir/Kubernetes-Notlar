@@ -118,3 +118,17 @@ kullanmak istediğin grafana dashboard linkinin idsini kopyala . grafanada impor
 
 # Monitoring ( EFK Stack )
 uygulamaların oluşturduğu logları prometheus üzerinde gösterebilmek , prometheusa aktarmak biraz zor . Biz bunun için başka bir stack kullanıyoruz . Logları toplamak için fluentd kullanıyor olacağız . Biz fluentd yi bir daemonset olarak clusterımıza deploy edeceğiz . BU her worker node'ın üzerinde instance olacak şekilde çalışacak ve bizim containerlarımızın oluşturduğu logları fluentd topluacak .ve bunları elasticSearche gönderecek 
+
+# Service Mesh 
+microservice mimarisinin kendi arasında haberleşmesinde de sıkıntılar var .
+[service mesh](https://medium.com/mehmetcemyucel/mikroservisler-service-mesh-nedir-4db051467a72)
+- Encryption problem
+- metriclerin toplanması
+ service mesh bizim microservice mimarisindeki uygulamalarımız için bize 
+- observability
+- traffic management
+- security
+- policy
+- reliabity sağlayan bir platform .
+bu alanda 2 tane öenmli oyuncu var 1) Istio 2) Lınkerd
+![image](https://user-images.githubusercontent.com/74687192/160847008-774dce95-970e-4c0a-ae69-875fcff69bc9.png)
