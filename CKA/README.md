@@ -30,3 +30,4 @@ https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/
  
  ![image](https://user-images.githubusercontent.com/74687192/213284468-39dded48-348d-4013-a6fc-f1a37be7f01b.png)
 
+https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
