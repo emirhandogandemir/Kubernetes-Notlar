@@ -10,6 +10,8 @@ PSI Bridge Proctoring Platform
 
 ![image](https://user-images.githubusercontent.com/74687192/213264739-10969b8d-f6f4-42e0-afea-726f69790286.png)
 
+https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/
+
 ## Upgrading K8s With Kubeadm
 
 ![image](https://user-images.githubusercontent.com/74687192/213275126-fd4baf86-98e1-4cc7-966f-4f0773d48eb1.png)
