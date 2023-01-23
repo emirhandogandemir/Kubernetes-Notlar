@@ -10,3 +10,4 @@
 ![image](https://user-images.githubusercontent.com/74687192/213726346-183b957a-1b98-4095-b36c-7a07546854b2.png)
 ![image](https://user-images.githubusercontent.com/74687192/213728734-0385c899-8db2-48ad-9de8-f294ef7b6a8c.png)
 ![image](https://user-images.githubusercontent.com/74687192/213729061-d284e103-d347-4c98-9d52-09dde1044882.png)
+https://raw.githubusercontent.com/ACloudGuru-Resources/content-cka-resources/master/metrics-server-components.yaml
