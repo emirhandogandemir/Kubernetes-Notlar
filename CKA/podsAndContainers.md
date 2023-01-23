@@ -22,3 +22,9 @@
 ![image](https://user-images.githubusercontent.com/74687192/214138942-08493492-88b3-4942-9ce4-7b84ea9d5b33.png)
 ![image](https://user-images.githubusercontent.com/74687192/214139390-7452f445-efd1-4cce-a250-236979aedb30.png)
 ![image](https://user-images.githubusercontent.com/74687192/214142030-caceb589-c2ec-411c-a8aa-ec12603da119.png)
+![image](https://user-images.githubusercontent.com/74687192/214143276-4f8dba54-5383-44dd-924b-dd1e5710ba5a.png)
+![image](https://user-images.githubusercontent.com/74687192/214143508-c4217441-331e-4ad8-9af2-06ca4ff80c83.png)
+![image](https://user-images.githubusercontent.com/74687192/214144087-1b32e25e-0b5a-4bd6-a8c5-39268461491b.png)
+###Building Self Healing Containers in kubernetes
+![image](https://user-images.githubusercontent.com/74687192/214146384-ffaa9435-8904-449a-8066-4fab38420f3c.png)
+
