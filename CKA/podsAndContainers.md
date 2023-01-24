@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/74687192/214121438-295bb8e7-aa72-44cd-9b91-f87a43a4826e.png)
 ![image](https://user-images.githubusercontent.com/74687192/214121779-18bf494e-100d-42df-b53c-9871d42f2108.png)
 
-### Passing Configuration Data Question
+### Passing Configuration Data Question sorusu
 ![image](https://user-images.githubusercontent.com/74687192/214122651-6335c8e8-86a0-4154-b396-2bf99f8e0ee5.png)
 ![image](https://user-images.githubusercontent.com/74687192/214127944-7af9b7df-07f4-48d2-a817-edab5ecb7ff6.png)
 ![image](https://user-images.githubusercontent.com/74687192/214128663-b1291975-fc06-48a9-bfe1-7fb11854fa96.png)
@@ -25,6 +25,11 @@
 ![image](https://user-images.githubusercontent.com/74687192/214143276-4f8dba54-5383-44dd-924b-dd1e5710ba5a.png)
 ![image](https://user-images.githubusercontent.com/74687192/214143508-c4217441-331e-4ad8-9af2-06ca4ff80c83.png)
 ![image](https://user-images.githubusercontent.com/74687192/214144087-1b32e25e-0b5a-4bd6-a8c5-39268461491b.png)
-###Building Self Healing Containers in kubernetes
+###Building Self Healing Containers in kubernetes sorusu
 ![image](https://user-images.githubusercontent.com/74687192/214146384-ffaa9435-8904-449a-8066-4fab38420f3c.png)
+![image](https://user-images.githubusercontent.com/74687192/214385548-1686467d-f419-4e88-b61a-9ae84a90c9be.png)
+![image](https://user-images.githubusercontent.com/74687192/214385995-fcc56d11-04ca-49f3-ab02-6528dda957f6.png)
+![image](https://user-images.githubusercontent.com/74687192/214386566-68e8814a-5cdb-4d1a-94fe-78fd90638112.png)
+![image](https://user-images.githubusercontent.com/74687192/214393593-97ad7cad-26b0-4fa1-9d9b-3181760c85a3.png)
+![image](https://user-images.githubusercontent.com/74687192/214397434-76b82d41-9e49-4154-9a9b-188358aa33e4.png)
 
