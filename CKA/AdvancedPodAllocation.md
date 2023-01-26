@@ -11,3 +11,8 @@
 ![image](https://user-images.githubusercontent.com/74687192/214928701-43ea6285-63f7-46b4-afc2-bb60a4d13a2f.png)
 ### Daemonset Question
 ![image](https://user-images.githubusercontent.com/74687192/214930488-1545ab83-1513-4b6a-85be-7e3448a1be39.png)
+## Using Static Pods
+![image](https://user-images.githubusercontent.com/74687192/214934911-188ad9b4-9cd1-48cf-81cc-47b9b994b3d2.png)
+![image](https://user-images.githubusercontent.com/74687192/214935078-001f8cd4-151a-4484-a4da-6eec17b1adfc.png)
+## Static Pod Question
+![image](https://user-images.githubusercontent.com/74687192/214937074-73002b75-aaa4-44d5-a2d4-8390ec02a66b.png)
