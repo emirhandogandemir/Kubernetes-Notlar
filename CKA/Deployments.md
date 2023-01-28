@@ -10,4 +10,6 @@
 ## Managing Rolling Updates with Deployments
 ![image](https://user-images.githubusercontent.com/74687192/215283105-99a5b494-ac62-4760-9a8b-902cb2bf30bb.png)
 ![image](https://user-images.githubusercontent.com/74687192/215283112-b1458941-eb79-4f57-bc7b-eece8f21a2b8.png)
+# Question
+![image](https://user-images.githubusercontent.com/74687192/215283735-a94d2ed4-c774-4c2a-baa0-2ba394c89e4e.png)
 
