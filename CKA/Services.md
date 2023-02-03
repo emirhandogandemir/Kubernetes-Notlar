@@ -19,3 +19,11 @@
 ![image](https://user-images.githubusercontent.com/74687192/216683774-52303f2f-690f-42ac-8652-3f795a4d1990.png)
 ## Using Kubernetes Services with DNS
 ![image](https://user-images.githubusercontent.com/74687192/216685676-b348bc91-1195-4a58-9354-ce10ebff72e2.png)
+### Managing Access from Outside with K8s Ingress
+![image](https://user-images.githubusercontent.com/74687192/216688265-f6ec6c0b-2297-4949-95fc-033f942c3b20.png)
+![image](https://user-images.githubusercontent.com/74687192/216688444-be284b23-341c-47df-86ea-01e0721a76e9.png)
+![image](https://user-images.githubusercontent.com/74687192/216688586-dc8277a0-320e-4e8b-97f4-4b85e92db705.png)
+![image](https://user-images.githubusercontent.com/74687192/216688942-b2912f56-8524-4de3-94d2-8c3ddb2cdbad.png)
+![image](https://user-images.githubusercontent.com/74687192/216689278-d82bfdb3-9c40-424e-bc42-8905f5f4fb70.png)
+## Using Kubernetes Ingress
+![image](https://user-images.githubusercontent.com/74687192/216690060-e2236448-be5c-4ba4-aec9-8d274210b16d.png)
