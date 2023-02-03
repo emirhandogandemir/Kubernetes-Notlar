@@ -14,3 +14,8 @@
 ![image](https://user-images.githubusercontent.com/74687192/216676575-ec9e4fd8-26d1-47e4-9f42-4dc01074b100.png)
 ## Exposing Kubernetes Pods Using Services
 ![image](https://user-images.githubusercontent.com/74687192/216677252-00fd9a78-c897-43cd-a23a-fb89bade0886.png)
+### Discovering K8s Serives with Dns
+![image](https://user-images.githubusercontent.com/74687192/216683728-33f8e2f9-8cdd-44a8-9999-d182aab7876c.png)
+![image](https://user-images.githubusercontent.com/74687192/216683774-52303f2f-690f-42ac-8652-3f795a4d1990.png)
+## Using Kubernetes Services with DNS
+![image](https://user-images.githubusercontent.com/74687192/216685676-b348bc91-1195-4a58-9354-ce10ebff72e2.png)
