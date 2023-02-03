@@ -12,3 +12,5 @@
 ![image](https://user-images.githubusercontent.com/74687192/216675403-4dcfeb8d-1adf-448c-9e3d-8c0ac7e7bd48.png)
 ![image](https://user-images.githubusercontent.com/74687192/216675789-eeb57a71-a50e-45a1-9c40-8dcd865dc4f0.png)
 ![image](https://user-images.githubusercontent.com/74687192/216676575-ec9e4fd8-26d1-47e4-9f42-4dc01074b100.png)
+## Exposing Kubernetes Pods Using Services
+![image](https://user-images.githubusercontent.com/74687192/216677252-00fd9a78-c897-43cd-a23a-fb89bade0886.png)
