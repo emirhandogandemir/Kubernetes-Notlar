@@ -6,3 +6,5 @@
 ### Checking Cluster abd Node Logs
 ![image](https://user-images.githubusercontent.com/74687192/216771802-3c2bcfb8-997d-47b4-9780-8c1715b2aec4.png)
 ![image](https://user-images.githubusercontent.com/74687192/216771841-8af756c9-953b-43e8-8e14-cfc0d4511c66.png)
+## Troubleshooting a Broken Kubernetes Cluster
+![image](https://user-images.githubusercontent.com/74687192/216772037-0a3d6b19-33ff-48f2-87d9-a8b88cd7582e.png)
