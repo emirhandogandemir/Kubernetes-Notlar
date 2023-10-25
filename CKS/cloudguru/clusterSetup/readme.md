@@ -16,3 +16,12 @@
 `kubectl label namespace nptest project=test`
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/07354f1b-313e-4dea-8c1d-ce4b7ebc5efa)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/098dcc56-939f-4d4b-8689-6a924cc95da9)
+
+## Running a CIS benchmark with kube-bench
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/6ce3af90-b62e-4889-b901-bfafc25838c1)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1ea059e3-d010-4eee-8ddf-34319bd6289f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0e7e91de-0bbd-414c-b639-e1fbc1fc2242)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b6a6cbe9-6ffd-4119-b07b-d71f36318d1f)
+
+## Fixing Security Issues Detected by a CIS Benchmark
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ec6f2329-75ef-4fcb-add2-bb2a51f49042)
