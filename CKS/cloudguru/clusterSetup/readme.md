@@ -25,3 +25,4 @@
 
 ## Fixing Security Issues Detected by a CIS Benchmark
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ec6f2329-75ef-4fcb-add2-bb2a51f49042)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d69f929d-d8d6-42bb-a03b-53caff1c28a8)
