@@ -14,10 +14,16 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/097bd9ea-ad4d-4eb1-a946-3ff269c01997)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b37cf985-3eb9-49e0-919c-96f02496e181)
 
-### 3 Add TLS a Kubernetes Service with Ingress
+## 3 Add TLS a Kubernetes Service with Ingress
 
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3222a5ce-1ae5-44c9-a5e4-54a3b6e513b4)
 
 ### Solution
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cb1cb23c-4b29-4da9-a586-cf521319151f)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/26425bcf-237d-4e5a-8f90-2a588dce4856)
+
+## 4 Verify Kubernetes Binaries
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/97819d75-73fb-46af-a323-8b67c95d426b)
+
+### Solution
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fbd9cc09-b03a-498a-b510-ed6f108adb6c)
