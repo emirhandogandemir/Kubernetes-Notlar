@@ -1,4 +1,4 @@
-![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/771f7b6a-a554-4b89-9163-2518c5944964)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4916967d-6c5d-4fd0-ad18-0693041cf636)![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/771f7b6a-a554-4b89-9163-2518c5944964)
 
 ## Restricting Default Access with NetworkPolicies
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/84cec556-a458-4b56-b56e-4562ff4455b2)
@@ -26,3 +26,15 @@
 ## Fixing Security Issues Detected by a CIS Benchmark
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ec6f2329-75ef-4fcb-add2-bb2a51f49042)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d69f929d-d8d6-42bb-a03b-53caff1c28a8)
+
+## Implementing TLS with Ingress
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b4060c40-2013-4635-bb3b-a06e8a596c12)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/839bb736-c446-4641-8639-c652571b2d45)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/c33cedc0-2c39-49ea-8cf0-0220df805111)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9ce52439-1e61-4e79-a8a4-9a3a78796f57)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a2e38558-d14b-498b-adb7-81972ed95fc6)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fa6ca98a-0f92-4818-a65d-f38be2802f62)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1a3987d2-d9fa-4854-a0ec-f55455536c7d)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/80712a54-39f7-465f-8a29-ba0f009d2276)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/94d9495c-fb9f-4761-b18d-ef37e1df491a)
+
