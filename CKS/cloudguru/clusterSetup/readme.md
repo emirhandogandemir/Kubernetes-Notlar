@@ -38,3 +38,24 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/80712a54-39f7-465f-8a29-ba0f009d2276)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/94d9495c-fb9f-4761-b18d-ef37e1df491a)
 
+## Securing Node Endpoints
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1d09452c-2084-4f79-8c6a-4a5949c7aa2a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/97879b54-13c6-4497-b849-4d5670b3d502)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5a01a6d9-4acb-44ab-a798-ab1748b5e84f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/c6a8efba-39a5-4321-8015-921ea1351183)
+
+## Securing GUI Elements
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/14af1e0a-e48c-4469-a7d5-4516a53ae0ea)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/75853038-e0e3-4ab6-b057-34a2d3b90e2f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/59c98bcb-c1ea-43c6-bedb-4a260b4cb0bf)
+
+## Verifying Kubernetes Platform Binaries
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/58dddd2f-ccd3-4c4e-b21c-921bb17ebb98)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/80acc642-e389-4575-8b19-f93da1ab7c24)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/89ab85bf-5d59-41ea-8545-90e0fa4bdc98)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9c851c9c-6747-4951-9005-81c697f7aec0)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ee9b50c5-c08a-4d25-ba64-83c6e8daaf6b)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3c245f43-8545-4590-b887-a90680b6eb58)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fdad5972-84f5-43bb-b846-fbc945e805e3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/82b88a41-ded2-4568-a23b-1ae63ef62b8e)
+
