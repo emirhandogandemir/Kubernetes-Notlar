@@ -18,3 +18,16 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/84001888-ee4c-4e51-8a4f-f7348a5abcb8)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ef2423fb-9662-4419-9134-85423cba2415)
 
+## Restricting Access to the Kubernetes API
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/75bb0157-7875-450f-a54e-60a0f3823a03)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/321a148a-4244-4b9d-88c2-0f3d5db01eae)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f528e5b8-b17f-477d-93ba-5e54dde713c3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0a8424d2-2fde-496e-8d25-305ac2c73bf7)
+
+## Keeping k8s Updated
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cfcd1fab-24f6-4589-b81b-d774d3648e89)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/093e6c0e-e604-4d97-819b-3c312a1eee4a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/379b6771-e1e8-4712-82fb-22aaf5cb607b)
+
+## Cluster Hardening Review
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ed1e1c44-0a65-4732-abad-5156bec92543)
