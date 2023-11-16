@@ -59,3 +59,9 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fdad5972-84f5-43bb-b846-fbc945e805e3)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/82b88a41-ded2-4568-a23b-1ae63ef62b8e)
 
+## Cluster SetuP Overview
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ccce5405-e789-4357-8945-9a47c555d9a7)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a9f40900-f444-428f-b9cc-65bdf343c264)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d14a3964-4e4f-4e82-b7d5-df84a4af42f8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3784e2b9-0362-4b19-be6e-4d4e7982b9da)
+
