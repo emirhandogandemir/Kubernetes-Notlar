@@ -25,3 +25,11 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/16ff5b0b-2466-4442-8c2f-1d121ebec982)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/22aacf11-eca9-453a-97e8-f6e53cf48a57)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/84ccff97-dfcb-48e5-8fa2-0176c668973a)
+
+
+## Exploring AppArmor
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d14d37fe-d44e-4358-8351-a6bb1d89f729)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1805671f-e21b-417a-b9a8-a65e5d7cc0d0)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9d847162-9b8e-4535-a614-d37ee2a4d09b)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/56c2ea6a-39c8-4873-8025-cf9f6e4d9a44)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/188cc3e9-5fd8-430f-8cbb-5629f37e56ec)
