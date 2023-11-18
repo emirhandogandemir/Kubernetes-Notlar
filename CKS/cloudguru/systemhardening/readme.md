@@ -33,3 +33,15 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9d847162-9b8e-4535-a614-d37ee2a4d09b)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/56c2ea6a-39c8-4873-8025-cf9f6e4d9a44)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/188cc3e9-5fd8-430f-8cbb-5629f37e56ec)
+
+
+## Using AppArmor in K8S Containers
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/000879a6-65cc-4402-8b65-d9baf0bd68da)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2a13fa99-528e-4002-81d8-3be83394776c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ebf8a4f1-c775-466d-83d8-8071457f6c88)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4f92d3c8-7bc6-4d93-9525-99679feceb5b)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a3af8c63-d674-4c21-9929-742ad41ecdd8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f4792253-1aaf-4aee-99dc-83f6e2f45366)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/45d22f28-c205-4fc7-8618-1b179e5a53a5)
+![Uploading image.png…]()
+
