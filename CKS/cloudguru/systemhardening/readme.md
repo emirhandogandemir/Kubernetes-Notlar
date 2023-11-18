@@ -12,3 +12,10 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/12ef714e-14fa-4915-8d2b-3bc6ae3c494a)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/072e9bcc-bd2b-470b-9ca1-21e6a5da71b4)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/6e9c9f8d-4a6f-4f34-9184-81ba8ae539c3)
+
+
+## Minimizing IAM Roles
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/843b31c0-d9bc-4d5e-9a2e-198cec476e99)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/33592e98-e6ed-4935-a110-c1c9ebc3b5b5)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d3d74ea8-7134-43c7-9e56-d6be57ada586)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/7ffc6946-b658-418d-9b58-9caa4178ab04)
