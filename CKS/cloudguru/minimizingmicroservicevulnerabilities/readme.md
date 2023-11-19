@@ -30,3 +30,14 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/8cd6c115-e6f5-4023-8843-0e5e9cc78c6d)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d7a3682d-68a7-425e-8410-f04c0bbc6b62)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/bc5a2c39-e502-4d1a-aa17-5aaf67cda4a9)
+
+## Using OPA Gatekeeper
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d6d0e600-e75d-40ba-8222-866362d853d3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/8a0c7e66-27a3-448d-a05c-053a17e62927)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/7a38f5ee-5f77-43ba-b892-61caa6f736b8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a9ec9ad3-1c33-4beb-b4d7-a799b52827c1)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/da9dd7cb-9514-4993-81c0-06db4020ef0c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4ab97c4a-6100-495f-b338-0fa17e634812)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/528f02d4-0134-4b03-95e9-c9fcd80c7da5)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/125c26f4-9f97-4c30-a902-7d9bed4bf458)
+
