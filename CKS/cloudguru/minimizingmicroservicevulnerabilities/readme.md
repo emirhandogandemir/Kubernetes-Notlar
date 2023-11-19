@@ -41,3 +41,14 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/528f02d4-0134-4b03-95e9-c9fcd80c7da5)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/125c26f4-9f97-4c30-a902-7d9bed4bf458)
 
+## Managing Kubernetes Secrets
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4d466b61-e0d1-4e5f-b22d-cc52be24dc8f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/dff45a12-608d-4013-be3c-be18956b4606)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/36a16312-1ad2-480e-830d-5535cee5f058)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/15d7ef69-5962-49d9-b0d5-6cb864c6783f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/009faf7f-7a18-4add-8a74-785f91e1a5d9)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e27b8dbc-530c-421c-bf8a-af25f6ecb7e5)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/bff51fe9-8b3c-4438-9257-0f1926d8e781)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3d967e1a-f2a3-4a7f-a0c5-347d3fe96a2c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/7b3b694a-f9f1-4a23-83eb-3a00639c83dc)
+
