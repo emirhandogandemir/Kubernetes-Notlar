@@ -52,3 +52,12 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3d967e1a-f2a3-4a7f-a0c5-347d3fe96a2c)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/7b3b694a-f9f1-4a23-83eb-3a00639c83dc)
 
+## Understanding Container Runtime Sandboxes
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2fb9cafd-68bb-417c-9b5f-fc35753ba98c)
+ ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fad58271-1016-4988-9249-18c2dd10161b)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e46d74d4-d431-4e25-a81e-bf3505d8be4e)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ab897cb9-b04b-4791-8c27-ae2276787788)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f61ee9d2-2cad-4c79-a864-59565e631e9b)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cd1da330-1509-48bd-8c45-b02210bc1a58)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/bac7e6fa-e204-4d5b-82ad-336dc8f2e0a8)
+
