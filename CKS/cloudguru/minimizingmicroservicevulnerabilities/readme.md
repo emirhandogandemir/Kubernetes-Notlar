@@ -61,3 +61,11 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cd1da330-1509-48bd-8c45-b02210bc1a58)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/bac7e6fa-e204-4d5b-82ad-336dc8f2e0a8)
 
+## Creating a Container Runtime Sandbox
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/82fda5c4-068f-4df6-9a3e-f098214d775a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/23cc63fd-7374-40d2-af04-3eb06eebf270)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/69e3f57d-6ab6-48be-b5b9-b7b63bcf3fd2)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f3cae9a1-9cda-4df8-8199-d8250e149f52)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/737224f0-1d86-4004-81c9-34e40cb0f98e)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f3fe27d9-96c7-471a-9827-771c54325033)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/171e90e3-c3ac-4298-babc-f6d6eef313f0)
