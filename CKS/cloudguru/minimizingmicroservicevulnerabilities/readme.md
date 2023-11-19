@@ -18,3 +18,15 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b38c33f9-8ec1-465d-9307-c4822482e37a)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d0c2dc4b-4e81-4a4e-b0a9-c61042cfccbf)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/c4032345-fe33-47dc-832b-a0a73f433ac0)
+
+## Using Pod Security Policies
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/982d729b-b7aa-4d93-9947-22429da8bc16)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fa078fb6-5c67-4b10-8122-88b28f2907c3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/83393436-affc-427f-8944-c9deef16f457)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3d83767a-e8d2-4618-8453-c52892cf3bcc)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b22ef56-f249-4a43-bc4c-be18ae267d8c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/46c287aa-1db9-45c2-bf27-1badbf603803)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/c8c60cdd-a851-40f2-b901-5f5d88c423f0)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/8cd6c115-e6f5-4023-8843-0e5e9cc78c6d)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d7a3682d-68a7-425e-8410-f04c0bbc6b62)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/bc5a2c39-e502-4d1a-aa17-5aaf67cda4a9)
