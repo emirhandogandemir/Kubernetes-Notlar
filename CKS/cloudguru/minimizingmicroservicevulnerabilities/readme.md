@@ -89,4 +89,12 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9680bd16-3b4e-4392-9a3f-2df175a7c98f)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0592fb07-0098-4969-83aa-64908a472579)
 
+## Minimizing Microservices Vulnerabilities Review
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/893458c3-6e19-4ae0-be1b-4199c56428e5)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b41395ce-aca5-4154-bde4-722829fde95c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5ace9f1d-0266-4310-9f7e-a0c66d5e7a2a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/04ad53d2-24b1-40ca-8264-56a9810b6b14)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/30c1dcf2-253b-4725-b236-ec9e593b46a2)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/48614675-2af4-4b5b-b1a9-3de4ba45f2b3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/8171304c-4bfb-41b6-a010-a559285c3385)
 
