@@ -69,3 +69,12 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/737224f0-1d86-4004-81c9-34e40cb0f98e)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f3fe27d9-96c7-471a-9827-771c54325033)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/171e90e3-c3ac-4298-babc-f6d6eef313f0)
+
+## Understanding Pod-to-Pod mTLS
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a1f75612-dfd2-4f50-8c35-1548655aaa9f)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/02f11445-6d00-4473-9fb0-cae6c6acf1a6)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cc02469d-c3f2-4cf3-8143-8c16eed5d031)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b901c0f-b74d-4355-a22b-f069d954efa3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/6d756492-b972-47c9-9b3c-41bb9746b677)
+
+
