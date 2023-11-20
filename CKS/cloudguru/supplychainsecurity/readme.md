@@ -39,3 +39,11 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/be2fbf23-b083-4246-9c0a-dea026591121)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1a66d4b6-c6e7-4a08-ae25-a8491cc69be2)
 
+## Scanning ımages for known vulnerabilities
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ca7a9db9-32a6-4e59-a20c-df2b4a290026)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fff91874-a1b4-4b86-9940-38dac706291d)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e96e1852-5015-4467-8cbd-fa503ce06603)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ac75add7-1226-410b-b0e2-4ff90852b7ee)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/583ac429-62d7-44d2-8933-514d9030e78c)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0df9f520-7c6d-499c-a6ef-ddbb7e2688a0)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ea536721-2352-45ee-9cc3-e286629472ea)
