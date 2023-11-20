@@ -47,3 +47,10 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/583ac429-62d7-44d2-8933-514d9030e78c)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0df9f520-7c6d-499c-a6ef-ddbb7e2688a0)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/ea536721-2352-45ee-9cc3-e286629472ea)
+
+
+## Scanning Images with an Admission Controller
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5491f22c-0354-4a6b-a7f1-f1756de9ad80)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b7c3bdd6-2751-4c7d-b036-b061d9452815)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b7ff608-d669-4bf6-87fc-81f50c481f0d)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4b0af3c8-dbbe-48f4-a65d-4968ade0ae5f)
