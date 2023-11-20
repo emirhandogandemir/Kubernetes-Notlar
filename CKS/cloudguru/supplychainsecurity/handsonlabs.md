@@ -11,3 +11,12 @@
 
 ### Solution
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/dd1d068c-78d0-4b25-89dc-e1ffef1cb2ba)
+
+## Scanning Images for Vulnerabilities with Trivy
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/38809753-26e1-456b-95f3-1e4d50c685fa)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/45abee9e-3294-4828-8568-40c2b889a115)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4260792c-9669-4898-8260-048c35a5873b)
+
+### Solution
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b997380-019a-45a0-92c2-87eb6d58d23a)
+
