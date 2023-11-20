@@ -31,3 +31,11 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a396fdc2-a519-4630-91e9-f2973c640639)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/c7b1e23f-d6cc-4527-a686-2e9f69f58e0f)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/314c75e1-09ec-433c-ba01-17865e448148)
+
+## Analyzing Resource YAML Files
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/940996ba-7e6e-4321-b2c8-2a65357db452)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/cfb1b6f6-589c-4a22-a503-78dfc87e6364)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f7b4eabf-f2ca-432f-bf79-795095806b8a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/be2fbf23-b083-4246-9c0a-dea026591121)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1a66d4b6-c6e7-4a08-ae25-a8491cc69be2)
+
