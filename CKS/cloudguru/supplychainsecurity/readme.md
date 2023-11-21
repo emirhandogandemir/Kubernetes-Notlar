@@ -57,10 +57,24 @@
 
 ## Setting Up an Image Scanner
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3037aaf3-8b5f-41f6-a56f-874cc7de82bd)
-![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/006b801c-fc4e-42bd-b5a6-e8de6cc47ada)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/006b801c-fc4e-42bd-b5a6-e8de6cc47ada)v
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5ffdbeec-408e-4cd6-b1d7-00254313e304)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/13638d84-f909-48d0-9a27-55a64a4dd736)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/44bf4e4e-99c9-4ced-a107-e34ea4f604cf)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/430be47f-adab-47bd-ab4b-1d0d0ff27ae8)
+
+## Configuring the ImagePolicyWebhook Admission Controller
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fa88dac8-7aa5-4ae5-8700-49894dbd7092)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e36ae028-4fa7-47de-a793-0f21243bcaec)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/71d79aca-0e89-4e25-8bd3-4a7ce931f2a8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d2c36be0-c85f-46b4-a790-e47ac85b2f90)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/31a62a69-487d-4080-9d4e-c73133279565)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/967e33ee-a139-4a34-a6b9-7827da8f4260)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/052ceb08-3ff2-4caf-a1d1-c7b26a831ed3)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/02185e44-e420-44d6-8564-75996c505bd0)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1d78e3ed-c1a6-4801-b8f9-582d0499d976)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/6a368e26-cf6e-4dca-86d8-9f295d66d210)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/7bfa73bb-6ae7-4337-a6f4-c40a80ae1642)
+
 
  
