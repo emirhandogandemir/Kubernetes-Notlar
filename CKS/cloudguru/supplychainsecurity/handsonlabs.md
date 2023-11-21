@@ -20,3 +20,11 @@
 ### Solution
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b997380-019a-45a0-92c2-87eb6d58d23a)
 
+## Automate Kubernetes Image Vulnerability Scanning
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e6611f0c-7efa-4f82-9b1b-93ff862e8489)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/dace4bf4-1ec3-4ead-90bf-165273a33e4d)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/52b9d106-d9b0-4c23-91fc-c34db87fdc57)
+
+### Solution
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/d45bc0b5-ff54-4a88-959f-3775632170f2)
+
