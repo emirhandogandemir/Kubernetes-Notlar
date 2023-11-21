@@ -54,3 +54,13 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b7c3bdd6-2751-4c7d-b036-b061d9452815)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2b7ff608-d669-4bf6-87fc-81f50c481f0d)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/4b0af3c8-dbbe-48f4-a65d-4968ade0ae5f)
+
+## Setting Up an Image Scanner
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3037aaf3-8b5f-41f6-a56f-874cc7de82bd)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/006b801c-fc4e-42bd-b5a6-e8de6cc47ada)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5ffdbeec-408e-4cd6-b1d7-00254313e304)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/13638d84-f909-48d0-9a27-55a64a4dd736)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/44bf4e4e-99c9-4ced-a107-e34ea4f604cf)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/430be47f-adab-47bd-ab4b-1d0d0ff27ae8)
+
+ 
