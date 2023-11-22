@@ -23,3 +23,5 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/58e79c66-d125-4f1a-a629-2f6602301706)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a6c4f7e0-85ad-4b9a-9d84-86e012460015)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3aca0124-aad2-46cb-9915-9d75dfec2b02)
+
+## Understanding Audit Logs
