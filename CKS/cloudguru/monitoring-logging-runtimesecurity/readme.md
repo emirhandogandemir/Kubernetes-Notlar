@@ -16,3 +16,10 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b8baa930-40ef-4db0-8872-f6499f38e9d3)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/940f4214-ea71-4e90-bc93-0e47becb6aab)
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/f8bdc24a-ce9d-48cb-a973-b2cd1acc4666)
+
+## Ensuring Containers Are Immutable
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/38f65c9c-623f-4e91-b250-8ba87b97607e)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/03c2a853-3661-41a8-8d1e-6d47b87bd8db)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/58e79c66-d125-4f1a-a629-2f6602301706)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a6c4f7e0-85ad-4b9a-9d84-86e012460015)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3aca0124-aad2-46cb-9915-9d75dfec2b02)
