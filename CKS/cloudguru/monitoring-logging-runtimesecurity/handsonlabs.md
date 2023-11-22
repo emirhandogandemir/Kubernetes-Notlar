@@ -3,4 +3,5 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/0e216580-5844-4317-be16-193e8506286d)
 
 ## Solutions
-![Uploading image.png…]()
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5ca430fd-c469-42f0-96dd-f3886cb35578)
+
