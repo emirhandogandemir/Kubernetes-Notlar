@@ -11,3 +11,12 @@
 
 ## Solutions
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e9914a6f-f107-4ea9-8117-daea2a0af2e5)
+
+
+## Configure Audit Logging in Kubernetes
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/e705d684-7a48-40c8-bc19-1f291e684b6a)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/038fa6be-f558-45ab-a1df-cbd6886b771d)
+
+## Solutions
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3c9a2048-27c7-4266-96bf-78c52bd439f7)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/14873a3e-0fec-484d-b334-d33d765b4a3f)
