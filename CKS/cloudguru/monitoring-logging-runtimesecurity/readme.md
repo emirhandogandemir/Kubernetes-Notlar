@@ -1,4 +1,4 @@
-## Monitoring, Logging and Runtime Security Intro
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/2d0cfb21-8f50-4c9f-87b1-b59589f58a42)## Monitoring, Logging and Runtime Security Intro
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/16ea9ea2-fe77-4976-a99a-2b3c1407dd90)
 
 ## Understanding Behavioral Analytics
@@ -25,3 +25,18 @@
 ![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/3aca0124-aad2-46cb-9915-9d75dfec2b02)
 
 ## Understanding Audit Logs
+
++![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/43017f29-dda0-4585-8d64-ed470fafdabe)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/43b2c4d6-7d7e-49f4-94fc-42a586a2a2c6)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/102fe4a4-e2a7-49b0-aef6-8b5efc7a4ea1)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/fe236c99-5afb-424d-ae7a-e9dbca1f94ab)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/9efbd815-3126-4a34-a014-aa2875c7996c)
+
+## Setting Up Audit Logging
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/a2359768-62c1-40ee-bdf4-8c0d34d260d8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/528d9c36-fec0-43df-9547-ed02941717d8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/de2e0043-051c-42de-8d82-7b37cefb85f2)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/5d572626-0da7-42a9-8b4a-ab410b32a993)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/09175d37-204f-4104-9e8b-52b40ba1dd06)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/b9d68cba-3929-4f1d-ab5e-c52594dd0cd8)
+![image](https://github.com/emirhandogandemir/Kubernetes-Notlar/assets/74687192/1dece716-cd7a-487c-b28c-9c474163ab18)
